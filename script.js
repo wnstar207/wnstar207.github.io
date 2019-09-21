@@ -4,4 +4,5 @@
     var n = d.getFullYear();
     document.getElementById("year").innerHTML = n;
 
-    var update = new Date(document.lastModified);
+    var modify = new Date(document.lastModified);
+    document.getElementById("update").innerHTML = modify;
