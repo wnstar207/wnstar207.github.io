@@ -4,4 +4,4 @@
     var date = modified.getDate();
     var year = modified.getFullYear();
     var modify = month + date + year
-    document.getElementById("update").innerHTML = modify;
+    document.getElementById("update").textContent = modify;
