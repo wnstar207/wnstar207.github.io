@@ -3,3 +3,5 @@
     var d = new Date();
     var n = d.getFullYear();
     document.getElementById("year").innerHTML = n;
+
+    var update = new Date(document.lastModified);
