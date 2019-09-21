@@ -4,9 +4,8 @@
     var n = d.getFullYear();
     document.getElementById("year").innerHTML = n;
 
-    var modified = new Date(document.lastModified);
-    var month = modified.getMonth() + 1;
-    var date = modified.getDate();
-    var year = modified.getFullYear();
-    var modify = month + date + year
-    document.getElementById("update").innerHTML = modify;
+    let modified = new Date(document.lastModified);
+    let month = modified.getMonth() + 1;
+    let date = modified.getDate();
+    let year = modified.getFullYear();
+    document.getElementById("update").textContent = (month + "-" + date + "-" + year);
