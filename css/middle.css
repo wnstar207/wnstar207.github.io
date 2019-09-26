@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media (min-width: 32.5em) {
     #wendiPhoto{float: right; margin-top: -100px;}
     h1{color: #2c0686;font-size: 50px;}
     h2{color: #2c0686; font-size: 40px;}
