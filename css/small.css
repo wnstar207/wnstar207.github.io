@@ -1,7 +1,7 @@
-h1{color: #134266; font-family: "permanent marker", cursive; font-size: 50px;}
-h2{color: #134266; font-family: "permanent marker", cursive; font-size: 40px;}
-h3{color: #134266; font-family: "architects daughter", cursive; font-size: 22px;}
-p{color: #134266; font-family: "architects daughter", cursive; font-size: 22px;}
+h1{color: #134266; font-family: "permanent marker", cursive; font-size: 40px;}
+h2{color: #134266; font-family: "permanent marker", cursive; font-size: 30px;}
+h3{color: #134266; font-family: "architects daughter", cursive; font-size: 12px;}
+p{color: #134266; font-family: "architects daughter", cursive; font-size: 12px;}
 body{background-color: white;}
 img{max-width: 100%;}
 footer{display: flex; height: 55px;}
