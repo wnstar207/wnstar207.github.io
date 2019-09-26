@@ -1,8 +1,8 @@
-.screenshot{width: 100px; padding: 10px;}
-h1{color: #661346; font-family: "mansalva", cursive; font-size: 20px;}
-h2{color: #13663c; font-family: "mansalva", cursive; font-size: 15px;}
-p{color: #c28007; font-family: "architects daughter", cursive; font-size: 10px;}
-a{color: #03587c; font-family: "architects daughter", cursive; font-size: 10px;}
+.screenshot{height: 200px; padding: 10px;}
+h1{color: #661346; font-family: "mansalva", cursive; font-size: 25px;}
+h2{color: #13663c; font-family: "mansalva", cursive; font-size: 20px;}
+p{color: #c28007; font-family: "architects daughter", cursive; font-size: 15px;}
+a{color: #03587c; font-family: "architects daughter", cursive; font-size: 15px;}
 main{display: grid;
 grid-template-columns: lfr;}
 
@@ -10,20 +10,20 @@ grid-template-columns: lfr;}
     main{
         grid-template-columns: lfr lfr;
     }
-    .screenshot{width: 150px; padding: 50px;}
+    .screenshot{height: 300px; padding: 50px;}
 h1{color: #661346; font-family: "mansalva", cursive; font-size: 30px;}
-h2{color: #13663c; font-family: "mansalva", cursive; font-size: 20px;}
-p{color: #c28007; font-family: "architects daughter", cursive; font-size: 15px;}
-a{color: #03587c; font-family: "architects daughter", cursive; font-size: 15px;}
+h2{color: #13663c; font-family: "mansalva", cursive; font-size: 25px;}
+p{color: #c28007; font-family: "architects daughter", cursive; font-size: 20px;}
+a{color: #03587c; font-family: "architects daughter", cursive; font-size: 20px;}
 }
 
 @media(min-width: 60em){
     main{
         grid-template-columns: lfr lfr lfr;
     }
-.screenshot{width: 250px; padding: 100px;}
+.screenshot{height: 400px; padding: 100px;}
 h1{color: #661346; font-family: "mansalva", cursive; font-size: 40px;}
 h2{color: #13663c; font-family: "mansalva", cursive; font-size: 30px;}
-p{color: #c28007; font-family: "architects daughter", cursive; font-size: 20px;}
-a{color: #03587c; font-family: "architects daughter", cursive; font-size: 20px;}
+p{color: #c28007; font-family: "architects daughter", cursive; font-size: 25px;}
+a{color: #03587c; font-family: "architects daughter", cursive; font-size: 25px;}
 }
