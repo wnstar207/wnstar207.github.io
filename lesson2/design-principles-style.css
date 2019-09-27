@@ -7,7 +7,7 @@ header, footer {
 }
 main{padding: 1rem; text-align: center;}
 #footer-text{color: white;}
-#fitts-law, #hicks-law, #visual-heirarchy {border-style: solid; border-radius: 5px; border-color: grey; padding: 0.5rem;}
+#fitts-law, #hicks-law, #visual-heirarchy {border-style: solid; border-radius: 5px; border-color: grey; background-color: lightgrey; padding: 0.5rem;}
 .section-head{background-color: grey; text-align: center; margin-top: -.5rem; margin-left: -.5rem; margin-right: -.5rem;}
 .screenshot{height: 15rem;}
 h1, h2, h3{font-family: "mansalva", cursive;}
