@@ -8,7 +8,7 @@ h1, h2, h3{font-family: "mansalva", cursive;}
 p, a:link, a:hover, a:visited{color: #03587c; font-family: "architects daughter", cursive; font-size: 1rem;}
 a:hover{text-decoration: none;}
 nav{text-align: center; color: white;}
-#school, #home, #top, #visual-link, #fitts-link, #hicks-link {color: white;}
+#school, #home, #top, #visual-link, #fitts-link, #hicks-link{color: white;}
 .star{font-size: 1.5rem;}
 h1{color: white; font-size: 2rem;}
 h2{font-size: 1.5rem;}
@@ -24,7 +24,7 @@ main{display: grid; grid-template-columns: 1fr;}
     h3{font-size: 1.5rem;}
     p{font-size: 1rem;}
     a:hover, a:link, a:visited{font-size: 1rem;}
-    #section-one-top-link, #section-three-top-link{display:none;}
+    #section-one-top-link{display:none;}
 }
 
 @media(min-width: 60em)
