@@ -1,0 +1,50 @@
+/*small screen*/
+body{width: 80%; margin: 0 auto;}
+main{margin-top: 5rem; padding: 1rem;}
+h1{color: #134265; font-family: "notable"; font-size: 1rem;}
+h2, h3{color: #134265; font-family: "notable", cursive; font-size: .75rem;}
+p, a{color: black; font-family: "maven pro", cursive; font-size: .75rem;}
+a:hover{text-decoration: none;}
+ul{list-style: none;}
+a:link, a:visited{color: black; font-family: "maven pro";}
+.fullwidth{width: 100%; border-radius: 50%; margin-top: 5%;}
+header, footer{background-color: goldenrod; width: 100%; border-radius: 10px; margin-top: 2rem; text-align: center; font-family: "maven pro";}
+header{height: 10rem;}
+footer{font-size: .85rem; height: 3rem;}
+img{height: 10rem; margin-left: 5px; border-radius: 50%;}
+#colors-page{background-color:#acd0ec; border-radius: 10px;}
+#nav-links{font-family: "maven pro", sans-serif; color:black; font-size: .75rem;}
+#heading-texts{font-family: "notable", sans-serif; color: #134265; font-size: 1rem;}
+#header-colors{font-family: "notable", sans-serif; color:#134265; background-color:goldenrod; font-size: 1rem;}
+#p-text{font-family: "maven pro", sans-serif; color:black; font-size: .75rem;}
+#footer-links{font-family: "maven pro", sans-serif; background-color: goldenrod; color: black; font-size: .75rem;}
+#maven-pro-nav, #maven-pro-para, #maven-pro-foot{font-family: "maven pro", sans-serif; color: black; font-size: .75rem;}
+#notable{font-family: "notable", sans-serif; color:#134265; font-size: 1rem;}
+#back-to-portal{margin-top: -1rem;}
+
+/*medium screen*/
+@media only screen and (min-width: 37.5em) {
+h1{font-size: 1.5rem;}
+h2{font-size: 1.5rem;}
+h3{font-size: 1.25rem;}
+p, a{font-size: 1rem;}
+ul{display: inline-block;}
+li{padding: 1rem; margin-top: -2rem; float: left; font-size: 1rem;}
+header{height: 10rem;}
+#notable, #heading-texts, #header-colors{font-size: 1.5rem;}
+#nav-links, #p-text, #footer-links, #maven-pro-nav, #maven-pro-para{font-size: 1rem;}
+#maven-pro-foot{font-size: .75rem;}
+#back-to-portal{float:right; position: relative; left: -30%; padding: 2rem;}
+}
+
+/*large screen*/
+@media only screen and (min-width: 60em) {
+h1{font-size: 2rem;}
+h2{font-size: 1.75rem;}
+h3{font-size: 1.5rem;}
+img{height: 15rem;}
+#nav-links, #p-text, #footer-links, #maven-pro-nav, #maven-pro-para{font-size: 1.5rem;}
+#heading-texts, #header-colors, #notable{font-size: 2rem;}
+#maven-pro-foot{font-size: 1rem;}
+#back-to-portal{padding: .5rem;}
+}
