@@ -3,7 +3,7 @@ body{width: 80%; margin: 0 auto;}
 main{margin-top: 5rem; padding: 1rem;}
 h1{color: #134265; font-family: "notable"; font-size: 1rem;}
 h2, h3{color: #134265; font-family: "notable", cursive; font-size: .75rem;}
-p, a{color: black; font-family: "maven pro", cursive; font-size: .75rem;}
+p, a{font-family: "maven pro", cursive; font-size: .75rem;}
 a:hover{text-decoration: none;}
 ul{list-style: none;}
 a:link, a:visited{color: black; font-family: "maven pro";}
