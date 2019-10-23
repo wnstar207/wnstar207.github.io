@@ -15,6 +15,19 @@ img{height: 3rem; border-radius: 50%; margin-top: .25rem;}
 #right-logo{float: right; margin-right: 2rem;}
 #you-are-here{color: white; background-color: #134265;}
 
+.navigation {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.fullNav{display:none;}
+
+
 /*medium screen*/
 @media only screen and (min-width: 37.5em) {
     h1{font-size: 1.5rem;}
@@ -27,6 +40,8 @@ img{height: 3rem; border-radius: 50%; margin-top: .25rem;}
     img{height: 4rem; margin-top: .25rem;}
     #left-logo{margin-left: 3rem;}
     #right-logo{margin-right: 3rem;}
+    #smallNav{display: none;}
+    .fullNav{display: inline-block;}
 }
 
 /*large screen*/

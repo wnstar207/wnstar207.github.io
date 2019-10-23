@@ -31,3 +31,7 @@ document.getElementById("today").innerHTML = nowDay + ", " + nowDate + " " + now
 var d = new Date();
 var n = d.getFullYear();
 document.getElementById("year").innerHTML = n;
+
+function toggleMenu() {
+	document.getElementsByClassName("fullNav")[0].classList.toggle("smallNav");
+}
