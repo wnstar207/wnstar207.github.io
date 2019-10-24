@@ -1,31 +1,21 @@
 /*small screen*/
 body{width: 80%; margin: 0 auto; text-align: center;}
-h1{color: #134265; font-family: "notable"; font-size: 1rem;}
+h1{color: #134265; font-family: "notable"; font-size: 1rem; padding: .5rem;}
 h2, h3{color: #134265; font-family: "notable", cursive; font-size: .75rem;}
 p, a{font-family: "maven pro", cursive; font-size: .75rem;}
 p{border-style: dashed; border-color: darkgrey; background-color: lightgrey; padding: 2rem;}
 a:hover{text-decoration: none; background-color: #134265;}
 ul{list-style: none;}
 a:link, a:visited{color: black; font-family: "maven pro";}
-header, footer{background-color: goldenrod; width: 100%; border-radius: 10px; margin-top: 2rem; text-align: center; font-family: "maven pro";}
-header{height: 10rem;}
+header, footer, #dailyMess {background-color: goldenrod; width: 100%; border-radius: 10px; margin-top: 2rem; text-align: center; font-family: "maven pro";}
+header{height: 4rem;}
 footer{font-size: .85rem; height: 3rem;}
 img{height: 3rem; border-radius: 50%; margin-top: .25rem;}
 #left-logo{float: left; margin-left: 2rem;}
 #right-logo{float: right; margin-right: 2rem;}
 #you-are-here{color: white; background-color: #134265;}
-
-.navigation {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.navigation li:first-child {
-    display: block;
-}
-
-.fullNav{display:none;}
+#navigation{display:none;}
+#menuButton{float:left;}
 
 
 /*medium screen*/
@@ -36,12 +26,14 @@ img{height: 3rem; border-radius: 50%; margin-top: .25rem;}
     p, a{font-size: 1rem;}
     ul{display: inline-block;}
     li{padding: 1rem; margin-top: -2rem; float: left; font-size: 1rem;}
-    header{height: 6.1rem;}
+    header{height: 7.1rem;}
     img{height: 4rem; margin-top: .25rem;}
-    #left-logo{margin-left: 3rem;}
+    #left-logo{display: block; float: left; margin-left: 3rem;}
     #right-logo{margin-right: 3rem;}
-    #smallNav{display: none;}
-    .fullNav{display: inline-block;}
+    #menuButton{display: none;}
+    #myNav{display: inline-block;}
+    .overlay, .closebtn, .openbtn {display: none;}
+    
 }
 
 /*large screen*/

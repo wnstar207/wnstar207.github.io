@@ -27,11 +27,3 @@ var nowDate = today.getDate();
 var nowMonth = monthNames[today.getMonth()];
 var nowYear = today.getFullYear();
 document.getElementById("today").innerHTML = nowDay + ", " + nowDate + " " + nowMonth + " " + nowYear;
-
-var d = new Date();
-var n = d.getFullYear();
-document.getElementById("year").innerHTML = n;
-
-function toggleMenu() {
-	document.getElementsByClassName("fullNav")[0].classList.toggle("smallNav");
-}

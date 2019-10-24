@@ -8,25 +8,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Notable&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="preston2.css">
+<link rel="stylesheet" href="navMenu.css">
 <title>Southeast Idaho Weather</title>
 </head>
 <!--weather for Soda Springs, Preston, and Fish Haven, ID. domain name: southeast-idaho-weather.com-->
 <body>
+    <div id="dailyMess"></div>
     <header>
         <img id="left-logo" src="../lesson3/weathericon.jpg" alt="logo, thermometer with fire and ice">
         <img id="right-logo" src="../lesson3/weathericon.jpg" alt="logo, thermometer with fire and ice">
         <h1>Southeast Idaho Weather</h1>
-        <nav class="navigation">
-            <ul>
-                <li id="smallNav"><a href="#" onclick="toggleMenu()">&#9776; Menu</li>
-                <li class="fullNav"><a href="../index.html">Home</a></li>
-                <li class="fullNav" id="you-are-here"><a href="preston2.html">Preston</a></li>
-                <li class="fullNav"><a href="soda-springs.html">Soda Springs</a></li>
-                <li class="fullNav"><a href="fish-haven.html">Fish Haven</a></li>
-                <li class="fullNav"><a href="storm-center.html">Storm Center</a></li>
-                <li class="fullNav"><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+            <!-- Overlay content -->
+                <div class="overlay-content">
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li id="you-are-here"><a href="preston2.html">Preston</a></li>
+                            <li><a href="soda-springs.html">Soda Springs</a></li>
+                            <li><a href="fish-haven.html">Fish Haven</a></li>
+                            <li><a href="storm-center.html">Storm Center</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+        <button type="button" class="openbtn" onclick="openNav()">Menu</button>
     </header>
     <main>
         <h2>Preston, Idaho</h2>
@@ -36,9 +45,14 @@
         <p>Contact info</p>
     </main>
     <footer>&copy; <span id="year"></span> | Southeast Idaho Weather | Wendi Stark<br>
-        <span id="today"></span><script src="preston2.js"></script>
+        <span id="today"></span>
     </footer>
-    
+    <script src="preston2.js"></script>
+    <script src="toggleMenu.js"></script>
+    <script src="dailyMess.js"></script>
+    <script src="year.js"></script>
+    <script src="openNav.js"></script>
+    <script src="closeNav.js"></script>
 </body>
 
 </html>
