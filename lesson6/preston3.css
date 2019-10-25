@@ -1,6 +1,6 @@
 /*small screen*/
 body{width: 80%; margin: auto; text-align: center;}
-h1{color: #134265; font-family: "notable"; font-size: 1rem; padding: .5rem;}
+h1{color: #134265; font-family: "notable"; font-size: .75rem; padding: .5rem;}
 h2, h3{color: #134265; font-family: "notable", cursive; font-size: .75rem;}
 p, a, div {font-family: "maven pro", cursive; font-size: .75rem;}
 #article, #forecast {border-style: solid; border-color: goldenrod; padding: 2rem; margin-top: 1rem;}
@@ -17,7 +17,7 @@ footer{font-size: .85rem; height: 3rem;}
 #right-logo{float: right; margin-right: 2rem;}
 #you-are-here{color: white; background-color: #134265;}
 #navigation{display:none;}
-#menuButton{float:left; margin-bottom: 1rem;}
+
 #lake-image{width: 100%;}
 #dailyMess{padding: .5rem; width: 100%}
 #map-image{display:none;}
