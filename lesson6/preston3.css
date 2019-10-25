@@ -17,7 +17,7 @@ footer{font-size: .85rem; height: 3rem;}
 #right-logo{float: right; margin-right: 2rem;}
 #you-are-here{color: white; background-color: #134265;}
 #navigation{display:none;}
-#menuButton{float:left;}
+#menuButton{float:left; margin-bottom: 1rem;}
 #lake-image{width: 100%;}
 #dailyMess{padding: .5rem; width: 100%}
 #map-image{display:none;}
