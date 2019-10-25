@@ -6,7 +6,7 @@ p, a, div {font-family: "maven pro", cursive; font-size: .75rem;}
 #hero {margin-top: 1rem;}
 #article, #forecast {border-style: solid; border-color: goldenrod; padding: 2rem; margin-top: 1rem;}
 #forecast{display:none;}
-#summary {position: relative; color: white; font-weight: bold; margin-left: .5rem; margin-top: -4rem; width: 30%; border-style: solid; border-color: goldenrod; background-color: rgba(19, 66, 101, 1);}
+#summary {position: relative; color: white; font-weight: bold; margin-left: .5rem; margin-top: -5rem; width: 30%; border-style: solid; border-color: goldenrod; background-color: rgba(19, 66, 101, 1);}
 a:hover{text-decoration: none; background-color: #134265;}
 ul{list-style: none;}
 a:link, a:visited{color: black; font-family: "maven pro";}
