@@ -19,7 +19,7 @@ footer{font-size: .85rem; height: 3rem;}
 #you-are-here{color: white; background-color: #134265;}
 #navigation{display:none;}
 #lake-image{width: 100%;}
-#dailyMess{padding: .5rem; width: 100%}
+#dailyMess{padding: .5rem; width: 95%}
 #map-image{display:none;}
 #article-text{text-align: left;}
 #article-image{width: 75%;}
@@ -27,7 +27,9 @@ table {display: inline-block;}
 table {border-style: solid; border-color: goldenrod;}
 td {line-height: 2rem; padding: .5rem; background-color: silver;}
 th {padding: 1rem; background-color: goldenrod;}
-
+#franklinSmall{display: block; width: 100%;}
+#franklinMedium{display:none;}
+#franklinLarge{display:none;}
 
 /*medium screen*/
 @media only screen and (min-width: 37.5em) {
@@ -52,6 +54,9 @@ th {padding: 1rem; background-color: goldenrod;}
     p {margin: auto; text-align: center;}
     #article-image{float: right; margin-top: .5rem; margin-left: 1rem; width: 40%;}
     .sunday, .monday {display: none;}
+    #franklinMedium{display: block; width: 100%;}
+    #franklinSmall{display:none;}
+    #franklinLarge{display:none;}
 }
 
 /*large screen*/
@@ -63,4 +68,7 @@ th {padding: 1rem; background-color: goldenrod;}
     #left-logo{margin-left: 5rem;}
     #right-logo{margin-right: 5rem;}
     #summary {margin-left: 5rem; width: 20%;}
+    #franklinLarge{display: block; width: 100%;}
+    #franklinMedium{display:none;}
+    #franklinSmall{display:none;}
 }
