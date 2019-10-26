@@ -40,17 +40,19 @@
     <main>
         <h2>Preston, Idaho</h2>
         <div id="hero">
-            <img id="franklinSmall" src="images/franklin-small.jpg" alt="outdoor photo with trees, mountains, and clouds">
-            <img id="franklinMedium" src="images/franklin-medium.jpg" alt="outdoor photo with trees, mountains, and clouds">
-            <img id="franklinLarge" src="images/franklin-large.jpg" alt="outdoor photo with trees, mountains, and clouds">
-                <div id="summary">
+            <picture>
+                <source media="(min-width: 60em)" srcset="franklin-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="franklin-medium.jpg">
+                <img id="franklin" src="franklin-small.jpg" alt="outdoor photo with trees, mountains, and clouds">
+            </picture>
+            <div id="summary">
                 Weather Summary<br>
                 Currently: Sunny<br>
-                High: 68&#176;F<br>
-                Wind Chill: &#176;F<br>
+                High: <element id="temp">44</element>&#176;F<br>
+                Wind Chill:<span id="windchill"></span><br>
                 Humidity: 52%<br>
-                Wind Speed: 3 MPH
-                </div>
+                Wind Speed: <element id="speed">4</element> MPH
+            </div>
         </div>
         <div id="forecast">
             <table> 
@@ -96,6 +98,7 @@
     <script src="year.js"></script>
     <script src="openNav.js"></script>
     <script src="closeNav.js"></script>
+    <script src="windchill.js"></script>
 </body>
 
 </html>
