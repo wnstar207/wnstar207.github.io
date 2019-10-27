@@ -41,6 +41,8 @@ th {padding: 1rem; background-color: goldenrod;}
     ul{display: inline-block;}
     li{padding: .5rem; margin-top: -2rem; float: left; font-size: 1rem;}
     header{height: 7.1rem;}
+    table{margin-left: -1rem;}
+    th, tr {font-size: .8rem;}
     #left-logo, #right-logo {height: 4rem; margin-top: .25rem;}
     #left-logo{display: block; float: left; margin-left: 3rem;}
     #right-logo{margin-right: 3rem;}
@@ -49,13 +51,20 @@ th {padding: 1rem; background-color: goldenrod;}
     .overlay, .closebtn, .openbtn {display: none;}
     #summary {margin-left: 1rem; width: 25%; padding:.5rem;}
     #forecast{display: block;}
-    #forecast-image {width: 70%; margin-top: 1.5rem;}
-    #map-image{display: flex; float: left;}
+    #map-image{display: flex; float: left; height: 10rem;}
     p {margin: auto; text-align: center;}
     #article-image{float: right; margin-top: .5rem; margin-left: 1rem; width: 40%;}
     .sunday, .monday {display: none;}
     #dailyMess {width: 97%;}
-    #contact{border-style: solid; border-color: goldenrod; margin-top: 1rem; height: 15rem; padding: 1rem; margin: auto; margin-top: 1rem;}
+    #contact{border-style: solid; border-color: goldenrod; margin-top: 1rem; height: 10rem; padding: 1rem; margin: auto; margin-top: 1rem;}
+    #contact-heading{margin-top: -.1rem;}
+}
+
+/*transitional screen size is doing weird things to my contact section*/
+@media only screen and (min-width: 45em) {
+    #map-image{height: 15rem;}
+    #contact{height: 15rem;}
+    #contact-heading{margin-top: 2rem;}
 }
 
 /*large screen*/
@@ -63,9 +72,14 @@ th {padding: 1rem; background-color: goldenrod;}
     h1{font-size: 2rem;}
     h2{font-size: 1.75rem;}
     h3{font-size: 1.5rem;}
+    table{margin-left: -1rem;}
+    th, tr {font-size: 1rem;}
     #left-logo, #right-logo {height: 5rem; margin-top: .5rem;}
     #left-logo{margin-left: 5rem;}
     #right-logo{margin-right: 5rem;}
     #summary {margin-left: 5rem; width: 20%;}
     #dailyMess {width: 99%;}
+    #map-image {height: 20rem;}
+    #contact{border-style: solid; border-color: goldenrod; margin-top: 1rem; height: 20rem; padding: 1rem; margin: auto; margin-top: 1rem;}
+    #contact-heading{margin-top: 5rem;}
 }
