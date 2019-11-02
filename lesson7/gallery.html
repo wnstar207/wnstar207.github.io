@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+
+<head>
+<meta charset= "utf-8">
+<meta name="author" content="Wendi Stark">
+<meta name="description" content="Wendi Stark's Weather Site for CIT 230: Web Frontend Development">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="preston4.css">
+<link rel="stylesheet" href="navMenu.css">
+<title>Southeast Idaho Weather</title>
+</head>
+<!--weather for Soda Springs, Preston, and Fish Haven, ID. domain name: southeast-idaho-weather.com-->
+<body>
+    <div id="dailyMess"></div>
+    <header>
+        <img id="left-logo" src="../lesson3/weathericon.jpg" alt="logo, thermometer with fire and ice">
+        <img id="right-logo" src="../lesson3/weathericon.jpg" alt="logo, thermometer with fire and ice">
+        <h1>Southeast Idaho Weather</h1>
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+            <!-- Overlay content -->
+                <div class="overlay-content">
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="preston4.html">Preston</a></li>
+                            <li><a href="soda-springs.html">Soda Springs</a></li>
+                            <li><a href="fish-haven.html">Fish Haven</a></li>
+                            <li><a href="storm-center.html">Storm Center</a></li>
+                            <li id="you-are-here"><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+        <button type="button" class="openbtn" onclick="openNav()">Menu</button>
+    </header>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div id="weather-photos-landscape">
+            <figure>
+                <picture>
+                    <source media="(min-width: 60em)" srcset="gallery-images/clear-sky-warm-wilton-run-large.jpg">
+                    <source media="(min-width: 37.5em)" srcset="gallery-images/clear-sky-warm-wilton-run-medium.jpg">
+                    <img class="landscape" src="gallery-images/clear-sky-warm-wilton-run-small.jpg" alt="outdoor photo of child running">
+                </picture>
+            <figcaption>Clear skies and warm temperatures for 5th Annual Wilton Run</figcaption>
+            </figure>
+            <figure>
+            <picture>
+                <source media="(min-width: 60em)" srcset="gallery-images/clear-sky-hot-camp-winton-fishing-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="gallery-images/clear-sky-hot-camp-winton-fishing-medium.jpg">
+                <img class="landscape" src="gallery-images/clear-sky-hot-camp-winton-fishing-small.jpg" alt="outdoor photo of three children on rock near lake">
+            </picture>
+            <figcaption>Clear skies and hot temperatures for Camp Winton fishers</figcaption>
+        </figure>
+        <figure>
+            <picture>
+                <source media="(min-width: 60em)" srcset="gallery-images/clear-sky-cool-garden-of-the-gods-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="gallery-images/clear-sky-cool-garden-of-the-gods-medium.jpg">
+                <img class="landscape" src="gallery-images/clear-sky-cool-garden-of-the-gods-small.jpg" alt="outdoor photo of a rock face">
+            </picture>
+            <figcaption>Clear skies and cool temperatures at Garden of the Gods</figcaption>
+        </figure>
+        <figure>
+            <img id="parade" class="lazy" data-src="gallery-images/clear-sky-cold-woodland-christmas-parade-large.jpg" alt="outdoor photo of people and parade floats">
+            <figcaption>Clear skies and cold temperatures at Woodland's Christmas Parade</figcaption>
+        </figure>
+        <figure>
+            <img id="christmas" class="lazy" data-src="gallery-images/white-christmas-fort-carson-large.jpg" alt="outdoor photo of child riding bike in snow">
+            <figcaption>It's a white Christmas for Fort Carson</figcaption>
+        </figure>
+        <figure>
+            <img id="snow" class="lazy" data-src="gallery-images/clear-sky-snow-fort-carson-large.jpg" alt="outdoor photo of two children in snow">
+            <figcaption>Clear skies after light snow at Fort Carson</figcaption>
+        </figure>
+        </div>
+        <div id="weather-photos-portrait">
+        <figure>
+            <img id="track" class="lazy" data-src="gallery-images/rain-pghs-track-meet-small.jpg" alt="outdoor photo of runners on track with puddles">
+            <figcaption>PGHS track team competes rain or shine</figcaption>
+        </figure>
+        <figure>
+            <img id="flood" class="lazy" data-src="gallery-images/rain-flood-fears-large.jpg" alt="outdoor photo of bridge over river">    
+            <figcaption>Unusually high precipitation levels trigger fears of flooding, levee breaks</figcaption>
+        </figure>
+        <figure>
+            <img id="winton" class="lazy" data-src="gallery-images/clear-sky-hot-camp-winton-large.jpg" alt="outdoor photo with child standing on rock in woods">
+            <figcaption>Clear skies and hot temperatures for Camp Winton campers</figcaption>
+        </figure>
+        <figure>
+            <img id="kite" class="lazy" data-src="gallery-images/kite-flying-wind-small.jpg" alt="outdoor photo with iron man kite in air">
+            <figcaption>Medium winds perfect for flying kites</figcaption>
+        </figure>
+        </div>
+    </main>
+    <footer>&copy; <span id="year"></span> | Southeast Idaho Weather | Wendi Stark<br>
+        <span id="today"></span>
+    </footer>
+    <script src="todaysDate.js"></script>
+    <script src="toggleMenu.js"></script>
+    <script src="dailyMess.js"></script>
+    <script src="year.js"></script>
+    <script src="openNav.js"></script>
+    <script src="closeNav.js"></script>
+    <script src="windchill.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    <script src="lazy-load.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+        google: {
+        families: ['Notable', 'Maven Pro']
+        }
+        });
+    </script>
+</body>
+
+</html>
