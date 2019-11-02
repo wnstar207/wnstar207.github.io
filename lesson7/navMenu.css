@@ -5,7 +5,7 @@
 .overlay a:hover, .overlay a:focus {color: #f1f1f1;}
 .overlay a {font-size: 1rem; font-family: "notable";}
 .overlay .closebtn {position: absolute; font-size: 40px; top: 15px; right: 35px;}
-.openbtn{float: left; margin-top: 2rem; margin-left: -2rem;}
+.openbtn{float: left; margin-top: 2rem; margin-left: 0rem;}
 }
 
 @media only screen and (min-width: 37.5em){
