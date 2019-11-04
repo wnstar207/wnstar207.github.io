@@ -1,0 +1,9 @@
+body{font-family: "ubuntu", sans-serif; text-align: center;}
+table, th, td{ border-style: solid; border-color: lightgrey; border-collapse: collapse; border-width: thin;}
+th, #exceed{color: white; background-color:#628ca6;}
+.headFoot{color: black; background-color:#7fb9c2;}
+tr{background-color: #e7f0ed;}
+tr:nth-child(odd){background-color: #e7ffed;}
+th, td {padding: 1rem;}
+thead{font-size: 2rem;}
+tfoot{font-size: .75rem;}
