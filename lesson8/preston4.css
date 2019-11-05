@@ -1,0 +1,93 @@
+/*small screen*/
+body{width: 80%; margin: auto; text-align: center;}
+h1{color: #134265; font-family: "notable"; font-size: .75rem; padding: .5rem;}
+h2, h3{color: #134265; font-family: "notable", cursive; font-size: .75rem;}
+p, a, div {font-family: "maven pro", cursive; font-size: .75rem;}
+#hero {margin-top: 1rem;}
+#article, #forecast {border-style: solid; border-color: goldenrod; padding: 2rem; margin-top: 1rem;}
+#forecast{display:none;}
+#summary {position: relative; color: white; font-weight: bold; margin-left: .5rem; margin-top: -5rem; width: 30%; border-style: solid; border-color: goldenrod; background-color: rgba(19, 66, 101, 1);}
+a:hover{text-decoration: none; background-color: #134265;}
+ul{list-style: none;}
+a:link, a:visited{color: black; font-family: "maven pro";}
+header, footer, #dailyMess {background-color: goldenrod; width: 100%; border-radius: 10px; margin-top: 2rem; text-align: center; font-family: "maven pro";}
+header{height: 4rem;}
+footer{font-size: .85rem; height: 3rem;}
+#left-logo, #right-logo {height: 3rem; border-radius: 50%; margin-top: .25rem;}
+#left-logo{float: left; margin-left: 2rem;}
+#right-logo{float: right; margin-right: 2rem;}
+#you-are-here{background-color: #134265;}
+#navigation{display:none;}
+#lake-image{width: 100%;}
+#dailyMess{padding: .5rem; width: 95%}
+#map-image{display:none;}
+#article-text{text-align: left;}
+#article-image{width: 75%;}
+table {display: inline-block;}
+table {border-style: solid; border-color: goldenrod;}
+td {line-height: 2rem; padding: .5rem; background-color: silver;}
+th {padding: 1rem; background-color: goldenrod;}
+#contact{border-style: solid; border-color: goldenrod; margin-top: 1rem; padding: 1rem; margin: auto; margin-top: 1rem;}
+.landscape, #christmas, #snow, #parade, #track, #flood, #winton, #kite, #banner {width: 100%;}
+#socialMedia{display: block; align-items: center;}
+#facebook, #twitter, #linkedin {width: 30px; padding: .1rem;}
+#weather-photos-landscape, #weather-photos-portrait {display: grid; grid-template-columns: 1fr;}
+main{margin-top: 4rem;}
+
+/*medium screen*/
+@media only screen and (min-width: 37.5em) {
+    h1{font-size: 1.5rem;}
+    h2{font-size: 1.5rem;}
+    h3{font-size: 1.25rem;}
+    p, a, div{font-size: 1rem;}
+    ul{display: inline-block;}
+    li{padding: .5rem; margin-top: -2rem; float: left; font-size: 1rem;}
+    header{height: 7.1rem;}
+    table{margin-left: -1rem;}
+    th, tr {font-size: .8rem;}
+    #left-logo, #right-logo {height: 4rem; margin-top: .25rem;}
+    #left-logo{display: block; float: left; margin-left: 3rem;}
+    #right-logo{margin-right: 3rem;}
+    #menuButton{display: none;}
+    #myNav{display: inline-block;}
+    .overlay, .closebtn, .openbtn {display: none;}
+    #summary {margin-left: 1rem; width: 25%; padding:.5rem;}
+    #forecast{display: block;}
+    #map-image{display: flex; float: left; height: 10rem;}
+    p {margin: auto; text-align: center;}
+    #article-image{float: right; margin-top: .5rem; margin-left: 1rem; width: 40%;}
+    .sunday, .monday {display: none;}
+    #dailyMess {width: 97%;}
+    #contact{border-style: solid; border-color: goldenrod; margin-top: 1rem; height: 10rem; padding: 1rem; margin: auto; margin-top: 1rem;}
+    #contact-heading{margin-top: -.1rem;}
+    #weather-photos-landscape, #weather-photos-portrait{grid-template-columns: 1fr 1fr; column-gap: .5rem;}
+    #track, #flood, #winton, #kite {width: 100%;}
+    .landscape, #parade, #christmas, #snow {width: 100%;}
+}
+
+/*transitional screen size is doing weird things to my contact section*/
+@media only screen and (min-width: 45em) {
+    #map-image{height: 15rem;}
+    #contact{height: 15rem;}
+    #contact-heading{margin-top: 2rem;}
+}
+
+/*large screen*/
+@media only screen and (min-width: 60em) {
+    h1{font-size: 2rem;}
+    h2{font-size: 1.75rem;}
+    h3{font-size: 1.5rem;}
+    table{margin-left: -1rem;}
+    th, tr {font-size: 1rem;}
+    #left-logo, #right-logo {height: 5rem; margin-top: .5rem;}
+    #left-logo{margin-left: 5rem;}
+    #right-logo{margin-right: 5rem;}
+    #summary {margin-left: 5rem; width: 20%;}
+    #dailyMess {width: 99%;}
+    #map-image {height: 20rem;}
+    #contact{border-style: solid; border-color: goldenrod; margin-top: 1rem; height: 20rem; padding: 1rem; margin: auto; margin-top: 1rem;}
+    #contact-heading{margin-top: 5rem;}
+    #weather-photos-landscape{grid-template-columns: 1fr 1fr 1fr; column-gap: 1rem;}
+    #track:hover, #flood:hover, #winton:hover, #kite:hover, #parade:hover, .landscape:hover, #christmas:hover, #snow:hover {box-shadow: 0 0 50px #333;}
+    
+}
