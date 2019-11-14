@@ -25,7 +25,8 @@ footer{font-size: .85rem; height: 3rem;}
 main{margin-top: 4rem;}
 #stormReport{text-align: left;}
 label{padding-bottom: .5rem;}
-.contactInfo, .stormInfo, .addInfo, #word{margin-bottom: .75rem; margin-left: 1.25rem;}
+.contactInfo, .stormInfo, #word{margin-bottom: .75rem; margin-left: 1.25rem;}
+.addInfo{display: flex; margin-left: 1.25rem;}
 form fieldset, #report, #submitButton{margin-left: 4rem; margin-right: 4rem; margin-bottom: 2rem;}
 form fieldset{border-radius: 15px; border-color: goldenrod;}
 form legend{margin: 1rem; color: #134265; font-family: "notable";}
