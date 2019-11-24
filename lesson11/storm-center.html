@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+
+<head>
+<meta charset= "utf-8">
+<meta name="author" content="Wendi Stark">
+<meta name="description" content="Wendi Stark's Weather Site for CIT 230: Web Frontend Development">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/storm-center.css">
+<link rel="stylesheet" href="css/navMenu.css">
+<link rel="shortcut icon" href="images/thermometer.ico">
+<title>Southeast Idaho Weather</title>
+</head>
+<!--weather for Soda Springs, Preston, and Fish Haven, ID. domain name: southeast-idaho-weather.com-->
+<body>
+    <header>
+        <img id="left-logo" src="images/weathericon.jpg" alt="logo, thermometer with fire and ice">
+        <img id="right-logo" src="images/weathericon.jpg" alt="logo, thermometer with fire and ice">
+        <h1>Southeast Idaho Weather</h1>
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+            <!-- Overlay content -->
+                <div class="overlay-content">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="preston5.html">Preston</a></li>
+                            <li><a href="soda-springs.html">Soda Springs</a></li>
+                            <li><a href="fish-haven.html">Fish Haven</a></li>
+                            <li id="you-are-here"><a href="storm-center.html">Storm Center</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+        <button type="button" class="openbtn" onclick="openNav()">Menu</button>
+    </header>
+    <main>
+        <h2>Storm Center</h2>
+        <div id="stormReport">
+            <h3>Report a storm in your area:</h3><br>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="contactInfo">*Your name</label><br>
+                        <input type="text" class="contactInfo" name="yourName" pattern="[A-Za-z ]{5,}" title="5 or more letters" required><br>
+                    <label class="contactInfo">Your email address</label><br>
+                        <input type="email" class="contactInfo" name="yourEmail" placeholder="email@domain.com"><br>
+                    <label class="contactInfo">*Your phone number</label><br>
+                        <input type="tel" class="contactInfo" name="yourPhone" placeholder="916-555-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                    <label class="contactInfo">*Your zip code</label><br>
+                        <input type="text" class="contactInfo" name="yourZip" pattern="[0-9]{5}" required><br>
+                    <span id="word">*Required</span>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="stormInfo">Storm date</label><br>
+                        <input type="date" class="stormInfo" name="stormDate"><br>
+                    <label class="stormInfo">Storm type</label><br>
+                        <input list="stormTypes" class="stormInfo" size="16">
+                            <datalist id="stormTypes">
+                                <option value="Flash Flood">
+                                <option value="Hail">
+                                <option value="Hurricane">
+                                <option value="Thunderstorm">
+                                <option value="Tornado">
+                            </datalist><br>
+                    <label class="stormInfo">Storm severity</label><br>
+                        <input type="range" class="stormInfo" name="stormSeverity" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">6</span><br>
+                    <label class="stormInfo">Storm region</label><br>
+                        <select name="cities" class="stormInfo">
+                            <option value="Select a region" selected disabled>Select a region</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <span class="addInfo">Are you in danger?</span><br>
+                        <label class="addInfo"><input type="radio" name="danger" value="yes">Yes</label>
+                        <label class="addInfo"><input type="radio" name="danger" value="no">No</label>
+                        <label class="addInfo"><input type="radio" name="danger" value="maybe">Maybe</label><br>
+                    <label class="addInfo">Comments</label><br>
+                        <textarea class="addInfo" id="smallTextArea" rows="4" cols="30"></textarea>
+                        <textarea class="addInfo" id="largeTextArea" rows="4" cols="45"></textarea><br>
+                </fieldset>
+                    <input id="submitButton" type="submit" value="Report Storm">
+            </form>
+        </div>
+        <div id="contact">
+            <img id="map-image" src="images/map.jpg" alt="map of Preston, Fish Haven, and Soda Springs, Idaho">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p id="contact-info"><strong>Southeast Idaho Weather</strong><br>
+            12345 Lee School Road<br>
+            Preston, ID 83263</p><br>
+            <div id="socialMedia">
+                <a target="_blank" href="http://www.facebook.com"><img id="facebook" alt="facebook icon" src="images/facebook-icon.jpg"></a>
+                <a target="_blank" href="http://www.twitter.com"><img id="twitter" alt="twitter icon" src="images/twitter-icon.jpg"></a>
+                <a target="_blank" href="http://www.linkedin.com"><img id="linkedin" alt="linkedin icon" src="images/linkedin-icon.jpg"></a>
+            </div>
+        </div>
+    </main>
+    <footer>&copy; <span id="year"></span> | Southeast Idaho Weather | Wendi Stark<br>
+        <span id="today"></span>
+    </footer>
+    <script src="scripts/todaysDate.js"></script>
+    <script src="scripts/year.js"></script>
+    <script src="scripts/openNav.js"></script>
+    <script src="scripts/closeNav.js"></script>
+    <script src="scripts/storm-rating.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+        google: {
+        families: ['Notable', 'Maven Pro']
+        }
+        });
+    </script>
+</body>
+
+</html>
