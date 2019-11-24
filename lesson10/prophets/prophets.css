@@ -1,0 +1,18 @@
+/*small screen*/
+body {text-align: center;}
+main {box-shadow: 0 0 50px #333;}
+h1, h2{color: rgb(0, 50, 0);}
+img {height: 20rem; margin: 0 auto;}
+footer {text-align: center;}
+.cards > section {border-style: solid; border-color: green; background-color: rgb(155, 245, 155);}
+.cards {display: grid; grid-template-columns: auto; grid-gap: 10px; padding: 10px;}
+
+/*medium screen*/
+@media only screen and (min-width: 37.5em) {
+.cards {grid-template-columns: auto auto;}
+}
+
+/*large screen*/
+@media only screen and (min-width: 60em) {
+.cards {grid-template-columns: auto auto auto auto;}
+}
