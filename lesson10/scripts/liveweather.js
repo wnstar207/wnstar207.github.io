@@ -4,7 +4,7 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-document.getElementById("current-temp").textContent = jsObject.main.temp;
+document.getElementById("current-temp").textContent = jsObject.main.temp.toFixed(0);
 document.getElementById("current-weather").textContent = jsObject.weather[0].description;
 document.getElementById("humidity").textContent = jsObject.main.humidity;
 document.getElementById("windSpeed").textContent = jsObject.wind.speed;

@@ -14,7 +14,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=c2c6096
         for (let i = 1; i <= 5; i++) {
         jsObject.list.forEach(x => {
             if (x.dt_txt.includes('18:00:00')) {
-                forecast[day] = x.main.temp;
+                forecast[day] = x.main.temp.toFixed(0);
                 day++;
                 icon[ico] = x.weather[0].icon;
                 ico++;
