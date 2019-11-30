@@ -93,4 +93,5 @@ main{margin-top: 4rem;}
     #weather-photos-landscape{grid-template-columns: 1fr 1fr 1fr; column-gap: 1rem;}
     #track:hover, #flood:hover, #winton:hover, #kite:hover, #parade:hover, .landscape:hover, #christmas:hover, #snow:hover {box-shadow: 0 0 50px #333;}
     #storm{width: 21rem;}
+    #socialMedia
 }
