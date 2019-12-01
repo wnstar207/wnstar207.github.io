@@ -21,9 +21,7 @@ footer{font-size: .85rem; height: 4rem;}
 #article-text{text-align: left;}
 #article-image-side{width: 75%;}
 #article-image-up{height: 15rem;}
-#jesse-8, #jesse-baby{height: 16rem; margin-top: .25rem;}
-#jesse-8{float: right; margin-right: 5rem;}
-#jesse-baby{float: left; margin-left: 5rem;}
+#jesse-8, #jesse-baby{height: 15rem; margin-top: .25rem;}
 table {display: inline-block;}
 table {border-style: solid; border-radius: 10px; border-color: goldenrod;}
 td {line-height: 2rem; padding: .5rem; background-color: silver;}
@@ -80,7 +78,7 @@ label{padding-bottom: .5rem;}
     #map-image{display: flex; float: left; height: 10rem;}
     p{margin: auto; text-align: center;}
     #article-image-side{float: right; margin-top: .5rem; margin-left: 1rem; width: 40%;}
-    #article-image-up{float: right; margin-top: .5rem; margin-left: 1rem; height: 15rem;}
+    #article-image-up{float: right; margin-top: .5rem; margin-left: 1rem;}
     .sunday, .monday {display: none;}
     #dailyMess {width: 97%;}
     #contact{border-style: solid; border-color: goldenrod; border-radius: 10px; margin-top: 1rem; height: 10rem; padding: 1rem; margin: auto; margin-top: 1rem;}
@@ -97,6 +95,8 @@ label{padding-bottom: .5rem;}
     .towns section:nth-child(odd){flex-direction: row-reverse;}
     #smallTextArea{display:none;}
     #largeTextArea{display: block;}
+    #jesse-8{float: right; margin-right: 5rem;}
+    #jesse-baby{float: left; margin-left: 5rem;}
 }
 
 /*transitional screen size is doing weird things to my contact section*/
