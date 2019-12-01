@@ -129,5 +129,5 @@ label{padding-bottom: .5rem;}
     .towns {grid-template-columns: 1fr 1fr 1fr;}
     .towns section{display: block;}
     .towns img {width: 95%; padding-right: 1rem; padding-left: .5rem; padding-top: 1rem;}
-    #wireframes{margin-top: 7rem;}
+    #wireframes{margin-top: 4rem;}
 }
