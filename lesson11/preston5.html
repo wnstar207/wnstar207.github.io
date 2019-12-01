@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/preston4.css">
 <link rel="stylesheet" href="css/navMenu.css">
 <link rel="shortcut icon" href="images/thermometer.ico">
-<title>Southeast Idaho Weather</title>
+<title>Preston, Idaho</title>
 </head>
 <!--weather for Soda Springs, Preston, and Fish Haven, ID. domain name: southeast-idaho-weather.com-->
 <body>
@@ -26,7 +26,7 @@
                     <nav>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li id="you-are-here"><a href="preston5.html">Preston</a></li>
+                            <li><a id="you-are-here" href="preston5.html">Preston</a></li>
                             <li><a href="soda-springs.html">Soda Springs</a></li>
                             <li><a href="fish-haven.html">Fish Haven</a></li>
                             <li><a href="storm-center.html">Storm Center</a></li>
@@ -47,8 +47,7 @@
                 Temperature: <span id="current-temp"></span>&#176;F<br>
                 Wind Chill: <span id="windchill"></span><br>
                 Humidity: <span id="humidity">&#37;</span><br>
-                Wind Speed: <span id="windSpeed"></span> MPH
-                Source: <a target="_blank" href="https://openweathermap.org/">openweathermap.org</a>
+                Wind Speed: <span id="windSpeed"></span> MPH<br>
             </div>
         </div>
         <div id="forecast">
@@ -56,11 +55,11 @@
             <table> 
                 <thead>
                     <tr>
-                        <th id="day1"></th>
+                        <th class="top-left" id="day1"></th>
                         <th id="day2"></th>
                         <th id="day3"></th>
                         <th id="day4"></th>
-                        <th id="day5"></th>
+                        <th class="top-right" id="day5"></th>
                     </tr>
                 </thead>
                     <tr>
@@ -71,29 +70,46 @@
                         <td><img src="images/sun.png" id="weatherimage5" alt="weather icon"></td>
                     </tr>
                 <tr>
-                    <td><span id="forecastday1"></span>&#176;F</td>
+                    <td class="bottom-left"><span id="forecastday1"></span>&#176;F</td>
                     <td><span id="forecastday2"></span>&#176;F</td>
                     <td><span id="forecastday3"></span>&#176;F</td>
                     <td><span id="forecastday4"></span>&#176;F</td>
-                    <td><span id="forecastday5"></span>&#176;F</td>
+                    <td class="bottom-right"><span id="forecastday5"></span>&#176;F</td>
                 </tr>
             </table>
         </div>
-        <div id="events">  </div>
+        <div id="article">
+            <h2>Fire Department Open House</h2>
+            <h3>November 4, 2017</h3>
+            <img id="article-image-up" src="images/firetruck.jpg" alt="child sitting in driver's seat of firetruck">
+            <p id="article-text">
+                <strong>Mission Statement:</strong><br><br>
+                Committed to the Care and Protection of the Community We Serve.<br><br>
+                <strong>Core Values:</strong><br><br>
+                Integrity - With honesty as our foundation, we will always do right.<br>
+                Professionalism - A personal commitment to exceed expectations of our profession in our attitude, ability, and appearance.<br>
+                Teamwork - A partnership of coordinated effort based on trust, empowerment, support, and communication.<br>
+                Service before Self - Recognizing and placing the needs of others before our own.<br><br>
+                <strong>Goals:</strong><br><br>
+                Honor the public trust by exceeding expectations. Provide a positive internal environment that promotes Trust and Commitment. Acting in the best interest of the public. Ensure efficient use of resources in order to maximize levels of service.<br><br>
+                <a target="_blank" href="http://www.wilton-fire.org/">Wilton Fire Department</a>
+            </p>
+        </div>
+        <div class="events"></div>
         <div id="contact">
             <img id="map-image" src="images/map.jpg" alt="map of Preston, Fish Haven, and Soda Springs, Idaho">
             <h2 id="contact-heading">Contact Us</h2>
             <p><strong>Southeast Idaho Weather</strong><br>
             12345 Lee School Road<br>
             Preston, ID 83263</p><br>
-            <div id="socialMedia">
-                <a target="_blank" href="http://www.facebook.com"><img id="facebook" alt="facebook icon" src="images/facebook-icon.jpg"></a>
-                <a target="_blank" href="http://www.twitter.com"><img id="twitter" alt="twitter icon" src="images/twitter-icon.jpg"></a>
-                <a target="_blank" href="http://www.linkedin.com"><img id="linkedin" alt="linkedin icon" src="images/linkedin-icon.jpg"></a>
-            </div>
+            <a target="_blank" href="http://www.facebook.com"><img id="facebook" alt="facebook icon" src="images/facebook-icon.jpg"></a>
+            <a target="_blank" href="http://www.twitter.com"><img id="twitter" alt="twitter icon" src="images/twitter-icon.jpg"></a>
+            <a target="_blank" href="http://www.linkedin.com"><img id="linkedin" alt="linkedin icon" src="images/linkedin-icon.jpg"></a>
         </div>
     </main>
-    <footer>&copy; <span id="year"></span> | Southeast Idaho Weather | Wendi Stark<br>
+    <footer>
+        Weather Summary Source: <a id="source" target="_blank" href="https://openweathermap.org/">openweathermap.org</a><br><br>
+        &copy; <span id="year"></span> | Southeast Idaho Weather | Wendi Stark<br>
         <span id="today"></span>
     </footer>
     <script src="scripts/todaysDate.js"></script>

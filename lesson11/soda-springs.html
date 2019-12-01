@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/preston4.css">
 <link rel="stylesheet" href="css/navMenu.css">
 <link rel="shortcut icon" href="images/thermometer.ico">
-<title>Southeast Idaho Weather</title>
+<title>Soda Springs, Idaho</title>
 </head>
 <!--weather for Soda Springs, Preston, and Fish Haven, ID. domain name: southeast-idaho-weather.com-->
 <body>
@@ -27,7 +27,7 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="preston5.html">Preston</a></li>
-                            <li id="you-are-here"><a href="soda-springs.html">Soda Springs</a></li>
+                            <li><a id="you-are-here" href="soda-springs.html">Soda Springs</a></li>
                             <li><a href="fish-haven.html">Fish Haven</a></li>
                             <li><a href="storm-center.html">Storm Center</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
@@ -47,20 +47,19 @@
                 Temperature: <span id="current-temp"></span>&#176;F<br>
                 Wind Chill: <span id="windchill"></span><br>
                 Humidity: <span id="humidity">&#37;</span><br>
-                Wind Speed: <span id="windSpeed"></span> MPH
-                Source: <a target="_blank" href="https://openweathermap.org/">openweathermap.org</a>
-            </div>
+                Wind Speed: <span id="windSpeed"></span> MPH<br>
+                </div>
         </div>
         <div id="forecast">
             <h2>Five Day Forecast</h2>
             <table> 
                 <thead>
                     <tr>
-                        <th id="day1"></th>
+                        <th class="top-left" id="day1"></th>
                         <th id="day2"></th>
                         <th id="day3"></th>
                         <th id="day4"></th>
-                        <th id="day5"></th>
+                        <th class="top-right" id="day5"></th>
                     </tr>
                 </thead>
                     <tr>
@@ -71,21 +70,50 @@
                         <td><img src="images/sun.png" id="weatherimage5" alt="weather icon"></td>
                     </tr>
                 <tr>
-                    <td><span id="forecastday1"></span>&#176;F</td>
+                    <td class="bottom-left"><span id="forecastday1"></span>&#176;F</td>
                     <td><span id="forecastday2"></span>&#176;F</td>
                     <td><span id="forecastday3"></span>&#176;F</td>
                     <td><span id="forecastday4"></span>&#176;F</td>
-                    <td><span id="forecastday5"></span>&#176;F</td>
+                    <td class="bottom-right"><span id="forecastday5"></span>&#176;F</td>
                 </tr>
             </table>
         </div>
         <div id="article">
-        <h2>Fire Department Open House</h2>
-        <img id="article-image" src="images/firetruck.jpg" alt="small child in drivers seat of fire truck">
-        <p id="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec sapien vel justo condimentum consectetur id eget lorem. Donec vulputate sapien est, a sollicitudin dolor placerat sit amet. Etiam ultricies ornare ipsum vitae fringilla. Suspendisse convallis magna lacus, lobortis commodo ante aliquet eget. Cras quis orci vel mauris tincidunt aliquam eget quis elit. Nunc pellentesque semper ex quis suscipit. Curabitur non luctus arcu. Mauris id turpis sed dolor fringilla auctor. Curabitur in est lacinia, ultricies turpis nec, pellentesque tortor. Ut risus justo, porta sit amet consequat eu, efficitur sit amet urna. Donec dignissim ligula et nisi laoreet, in tincidunt magna dictum.<br><br>
-        Donec fringilla dapibus nunc nec faucibus. Phasellus finibus ac dolor ac condimentum. Nunc gravida dui sodales viverra consectetur. Sed scelerisque vehicula lectus, ut iaculis sapien lacinia in. Mauris non libero egestas, sodales dolor et, consectetur diam. Ut non elit eu lectus dignissim iaculis. Praesent sollicitudin molestie metus, vel posuere metus faucibus ut. Aenean mollis magna vestibulum fringilla pulvinar. Suspendisse potenti. Fusce eu suscipit sapien. Duis vitae justo in mauris venenatis fermentum. Nullam eget augue lorem. Nam luctus, neque et varius tincidunt, enim sapien rhoncus nibh, at venenatis nisl lectus sit amet urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sed velit blandit, ultricies libero in, ultricies erat.<br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec sapien vel justo condimentum consectetur id eget lorem. Donec vulputate sapien est, a sollicitudin dolor placerat sit amet. Etiam ultricies ornare ipsum vitae fringilla. Suspendisse convallis magna lacus, lobortis commodo ante aliquet eget. Cras quis orci vel mauris tincidunt aliquam eget quis elit. Nunc pellentesque semper ex quis suscipit. Curabitur non luctus arcu. Mauris id turpis sed dolor fringilla auctor. Curabitur in est lacinia, ultricies turpis nec, pellentesque tortor. Ut risus justo, porta sit amet consequat eu, efficitur sit amet urna. Donec dignissim ligula et nisi laoreet, in tincidunt magna dictum.</p>
+            <h2>Happy Birthday Jesse</h2>
+            <h3>8 is Great!</h3>
+            <img id="jesse-8" src="images/jesse8.jpg" alt="child sitting on arm of couch">
+            <img id="jesse-baby" src="images/jessebaby.jpg" alt="newborn baby in hospital bassinet">
+            <p id="article-text">
+                <table>
+                    <tr>
+                        <th class="top-left">2011-2019</th>
+                        <th>Then</th>
+                        <th class="top-right">Now</th>
+                    </tr>
+                    <tr>
+                        <td>Birthday</td>
+                        <td>Thanksgiving Day!</td>
+                        <td>November 24</td>
+                    </tr>
+                    <tr>
+                        <td>Home</td>
+                        <td>Colorado</td>
+                        <td>California</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>10 pounds</td>
+                        <td>55 pounds</td>
+                    </tr>
+                    <tr>
+                        <td class="bottom-left">Height</td>
+                        <td>21 inches</td>
+                        <td class="bottom-right">4'3"</td>
+                    </tr>
+                </table>
+            </p>
         </div>
+        <div class="events"></div>
         <div id="contact">
             <img id="map-image" src="images/map.jpg" alt="map of Preston, Fish Haven, and Soda Springs, Idaho">
             <h2 id="contact-heading">Contact Us</h2>
@@ -99,7 +127,9 @@
             </div>
         </div>
     </main>
-    <footer>&copy; <span id="year"></span> | Southeast Idaho Weather | Wendi Stark<br>
+    <footer>
+        Weather Summary Source: <a id="source" target="_blank" href="https://openweathermap.org/">openweathermap.org</a><br><br>
+        &copy; <span id="year"></span> | Southeast Idaho Weather | Wendi Stark<br>
         <span id="today"></span>
     </footer>
     <script src="scripts/todaysDate.js"></script>
@@ -110,6 +140,7 @@
     <script src="scripts/windchill.js"></script>
     <script src="scripts/soda-springs-live.js"></script>
     <script src="scripts/soda-springs-forecast.js"></script>
+    <script src="scripts/soda-springs-events.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
