@@ -1,0 +1,12 @@
+#nav{list-style:none; margin:0; padding:0; text-align:center; background-color:#119da4; border-radius: 10px;}
+#nav li{position:relative; display:inline;}
+#nav a{display:inline-block; padding:10px;}
+#nav ul{position:absolute; left:-9999px; margin:0; padding:0; text-align:left;}
+#nav ul li{display:block;}
+#nav li:hover ul{left:0;}
+#nav li:hover a{text-decoration:underline; background-color:#119da4;}
+#nav li:hover ul a{text-decoration:none; background-color:#119da4;}
+#nav li:hover ul a:hover{text-decoration:underline; background-color:#119da4;}
+#nav ul a{white-space:nowrap; display:block;}
+a{color:black; text-decoration:none; font-weight:bold;}
+a:hover{text-decoration:underline; background-color:#119da4;}

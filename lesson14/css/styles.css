@@ -1,0 +1,346 @@
+#you-are-here {
+  text-decoration: underline; }
+
+h1, h2 {
+  font-family: "raleway"; }
+
+h3, p {
+  font-family: "solway"; }
+
+a {
+  font-family: "montserrat"; }
+
+h2 {
+  text-align: center; }
+
+header {
+  background-color: #119da4;
+  text-align: center;
+  border-radius: 10px; }
+
+body {
+  width: 85%;
+  padding: 10px 0;
+  margin: 0 auto; }
+
+header h1 {
+  padding-top: 15px; }
+
+#reservaroom {
+  text-align: center;
+  border-style: solid;
+  border-color: #3066be;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px; }
+
+#temple-summary {
+  border-style: solid;
+  border-color: #3066be;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#temple-summary p {
+  margin-top: -1rem;
+  text-indent: 25px;
+  margin-bottom: 0; }
+
+.temples {
+  float: left;
+  border-style: solid;
+  border-color: #3066be;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px; }
+
+#icon-right {
+  float: right; }
+
+#icon-left {
+  float: left; }
+
+@media only screen and (max-width: 37.49em) {
+  .overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s; }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px; }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1; }
+
+  .overlay a {
+    font-size: 1rem; }
+
+  .overlay .closebtn {
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    right: 35px; }
+
+  .openbtn {
+    float: right;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-right: 50px; }
+
+  ul {
+    list-style-type: none; }
+
+  header img {
+    width: 50px; }
+
+  header h1 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 0; }
+
+  header a {
+    font-size: .8rem; }
+
+  h2 {
+    font-size: .8rem;
+    line-height: 1rem; }
+
+  #icon-right {
+    display: none; }
+
+  #icon-left {
+    margin-left: 45px; }
+
+  #temple-summary {
+    float: none;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px; }
+
+  #temple-summary p {
+    font-size: .8rem; }
+
+  .temples {
+    float: none;
+    width: 37%;
+    margin-top: 10px; }
+
+  #temple-pictures {
+    text-align: center; }
+
+  #reservaroom {
+    width: 40%; } }
+@media only screen and (min-width: 37.5em) {
+  header img {
+    width: 70px; }
+
+  header h1 {
+    font-size: 1.5rem; }
+
+  header a {
+    font-size: .8rem; }
+
+  h2 {
+    font-size: 1rem;
+    line-height: 1.25rem; }
+
+  #icon-right {
+    float: right;
+    margin-right: 25px; }
+
+  #icon-left {
+    float: left;
+    margin-left: 25px; }
+
+  .openbtn, .closebtn {
+    display: none; }
+
+  #temple-summary {
+    float: right;
+    width: 50%; }
+
+  #temple-summary p {
+    font-size: .82rem; }
+
+  .temples {
+    width: 35%; }
+
+  #reservaroom {
+    width: 40%; }
+
+  #gone1, #gone2, #gone3, #gone4 {
+    display: none; }
+
+  #nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #119da4;
+    border-radius: 10px; }
+
+  #nav li {
+    position: relative;
+    display: inline; }
+
+  #nav a {
+    display: inline-block;
+    padding: 10px; }
+
+  #nav ul {
+    position: absolute;
+    left: -9999px;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+
+  #nav ul li {
+    display: block; }
+
+  #nav li:hover ul {
+    left: 0; }
+
+  #nav li:hover a {
+    text-decoration: underline;
+    background-color: #119da4; }
+
+  #nav li:hover ul a {
+    text-decoration: none;
+    background-color: #119da4; }
+
+  #nav li:hover ul a:hover {
+    text-decoration: underline;
+    background-color: #119da4; }
+
+  #nav ul a {
+    white-space: nowrap;
+    display: block; }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+
+  a:hover {
+    text-decoration: underline;
+    background-color: #119da4; } }
+@media only screen and (min-width: 60em) {
+  header img {
+    width: 90px; }
+
+  header h1 {
+    font-size: 2rem; }
+
+  header a {
+    font-size: 1rem; }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem; }
+
+  #icon-right {
+    float: right;
+    margin-right: 150px; }
+
+  #icon-left {
+    float: left;
+    margin-left: 150px; }
+
+  .openbtn, .closebtn {
+    display: none; }
+
+  #temple-summary {
+    float: left;
+    width: 50%; }
+
+  #temple-summary p {
+    font-size: 1rem; }
+
+  .temples {
+    width: 19%; }
+
+  #reservaroom {
+    width: 40%; }
+
+  #gone1, #gone2, #gone3, #gone4 {
+    display: inline; }
+
+  #nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #119da4;
+    border-radius: 10px; }
+
+  #nav li {
+    position: relative;
+    display: inline; }
+
+  #nav a {
+    display: inline-block;
+    padding: 10px; }
+
+  #nav ul {
+    position: absolute;
+    left: -9999px;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+
+  #nav ul li {
+    display: block; }
+
+  #nav li:hover ul {
+    left: 0; }
+
+  #nav li:hover a {
+    text-decoration: underline;
+    background-color: #119da4; }
+
+  #nav li:hover ul a {
+    text-decoration: none;
+    background-color: #119da4; }
+
+  #nav li:hover ul a:hover {
+    text-decoration: underline;
+    background-color: #119da4; }
+
+  #nav ul a {
+    white-space: nowrap;
+    display: block; }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+
+  a:hover {
+    text-decoration: underline;
+    background-color: #119da4; } }
