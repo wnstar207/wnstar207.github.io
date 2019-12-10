@@ -10,12 +10,10 @@
     "groundbreaking": "9 June 1979",
     "dedicated": "16 November 1981",
     "rededicated": "20 May 2018",
-    "templeservices": [
-        "Clothing rental available \n",
-        "Cafeteria available \n",
-        "No patron housing available \n",
-        "No distribution center nearby"
-    ],
+    "servicesClothing": "Clothing rental available",
+    "servicesCafeteria": "Cafeteria available, ",
+    "servicesHousing": "No patron housing available",
+    "servicesDistCenter": "No distribution center nearby",
     "closures" : [
         "Monday, 9 December 2019 - Monday, 23 December 2019",
         "Tuesday, 24 December 2019",
@@ -45,12 +43,10 @@
     "announced": "7 August 2002",
     "groundbreaking": "23 September 2002",
     "dedicated": "13 June 2004",
-    "templeservices": [
-        "Clothing rental available",
-        "No cafeteria available",
-        "No patron housing available",
-        "Distribution center nearby"
-    ],
+    "servicesClothing": "Clothing rental available",
+    "servicesCafeteria": "No cafeteria available, ",
+    "servicesHousing": "No patron housing available",
+    "servicesDistCenter": "Distribution center nearby",
     "closures" : [
         "Tuesday, 24 December 2019",
         "Wednesday, 25 December 2019",
@@ -77,12 +73,10 @@
     "announced": "24 June 2001",
     "groundbreaking": "29 March 2003",
     "dedicated": "22 May 2005",
-    "templeservices": [
-        "No clothing rental available",
-        "No cafeteria available",
-        "No patron housing available",
-        "Distribution center nearby"
-    ],
+    "servicesClothing": "No clothing rental available",
+    "servicesCafeteria": "No cafeteria available, ",
+    "servicesHousing": "No patron housing available",
+    "servicesDistCenter": "Distribution center nearby",
     "closures" : [
         "Tuesday, 24 December 2019",
         "Wednesday, 25 December 2019",
@@ -110,12 +104,10 @@
     "announced": "12 December 2003",
     "groundbreaking": "30 July 2005",
     "dedicated": "10 February 2008",
-    "templeservices": [
-        "Clothing rental available",
-        "No cafeteria available",
-        "No patron housing available",
-        "Distribution center nearby"
-    ],
+    "servicesClothing": "Clothing rental available",
+    "servicesCafeteria": "No cafeteria available, ",
+    "servicesHousing": "No patron housing available",
+    "servicesDistCenter": "Distribution center nearby",
     "closures" : [
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
@@ -139,12 +131,10 @@
     "announced": "4 October 2008",
     "groundbreaking": "8 May 2010",
     "dedicated": "6 May 2012",
-    "templeservices": [
-        "Clothing rental available",
-        "No cafeteria available",
-        "No patron housing available",
-        "No distribution center nearby"
-    ],
+    "servicesClothing": "Clothing rental available",
+    "servicesCafeteria": "No cafeteria available, ",
+    "servicesHousing": "No patron housing available",
+    "servicesDistCenter": "No distribution center nearby",
     "closures" : [
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 (Limited Hours)",
@@ -169,12 +159,10 @@
     "announced": "21 April 2001",
     "groundbreaking": "22 August 2004",
     "dedicated": "3 September 2006",
-    "templeservices": [
-        "No clothing rental available",
-        "No cafeteria available",
-        "No patron housing available",
-        "Distribution center nearby"
-    ],
+    "servicesClothing": "No clothing rental available",
+    "servicesCafeteria": "No cafeteria available, ",
+    "servicesHousing": "No patron housing available",
+    "servicesDistCenter": "Distribution center nearby",
     "closures" : [
         "Tuesday, 24 December 2019",
         "Wednesday, 25 December 2019",
