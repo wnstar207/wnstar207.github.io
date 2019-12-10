@@ -10,8 +10,14 @@ h3, p {
 a {
   font-family: "montserrat"; }
 
-h2 {
+h2, h3, p {
   text-align: center; }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
 
 header {
   background-color: #119da4;
@@ -32,8 +38,9 @@ header h1 {
 #icon-left {
   float: left; }
 
-#temple-services {
-  color: purple; }
+.history, .templeServices, .ordinances, .weather, .photos, .jordanCard {
+  width: 49%;
+  float: left; }
 
 @media only screen and (max-width: 37.49em) {
   header img {
@@ -45,11 +52,13 @@ header h1 {
     margin-bottom: 0; }
 
   header a {
-    font-size: .8rem; }
+    font-size: .9rem; }
 
   h2 {
-    font-size: .8rem;
-    line-height: 1rem; }
+    font-size: .9rem; }
+
+  p {
+    font-size: .8rem; }
 
   #icon-right {
     display: none; }
@@ -117,6 +126,10 @@ header h1 {
   h2 {
     font-size: 1rem;
     line-height: 1.25rem; }
+
+  p {
+    font-size: .9rem;
+    line-height: 1rem; }
 
   #icon-right {
     float: right;
@@ -195,6 +208,10 @@ header h1 {
   h2 {
     font-size: 1.5rem;
     line-height: 2rem; }
+
+  p {
+    font-size: default;
+    line-height: default; }
 
   #icon-right {
     float: right;
