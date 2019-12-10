@@ -1,0 +1,16 @@
+@import "allsizeTemples";
+
+@media only screen and (max-width: 37.49em){
+@import "smallTemples";
+@import "buttonNav";
+}
+
+@media only screen and (min-width: 37.5em){
+@import "mediumTemples";
+@import "dropdownNav";
+}
+
+@media only screen and (min-width: 60em){
+@import "largeTemples";
+@import "dropdownNav";
+}
