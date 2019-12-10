@@ -38,7 +38,7 @@ header h1 {
 #icon-left {
   float: left; }
 
-.history, .templeServices, .ordinances, .weather, .photos, .jordanCard {
+.history, .templeServices, .ordinances, .weather, .photos, .jordanCard, #jordan, #manhattan {
   width: 49%;
   float: left; }
 
