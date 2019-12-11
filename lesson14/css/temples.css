@@ -18,7 +18,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
-  width: 90%; }
+  width: 80%; }
 
 header {
   margin-top: -2rem;
@@ -39,6 +39,18 @@ header h1 {
 #icon-left {
   float: left; }
 
+#attention {
+  width: 40%;
+  text-align: center;
+  border-style: solid;
+  border-color: #3066be;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 1rem; }
+
 .history, .templeServices, .weather {
   width: 33%;
   float: left; }
@@ -53,14 +65,15 @@ header h1 {
 #jordan, #manhattan, #sanantonio, #rexburg, #kansascity, #sacramento {
   width: 48%;
   float: left;
+  border-width: 2px;
   border-left-style: solid;
-  border-left-color: #119da4;
+  border-left-color: #3066be;
   border-top-style: solid;
-  border-top-color: #119da4; }
+  border-top-color: #3066be; }
 
 #manhattan, #rexburg, #sacramento {
   border-right-style: solid;
-  border-right-color: #119da4;
+  border-right-color: #3066be;
   margin-right: 1rem; }
 
 #kansascity, #jordan, #sanantonio {
@@ -68,8 +81,20 @@ header h1 {
 
 #sacramento, #kansascity {
   border-bottom-style: solid;
-  border-bottom-color: #119da4;
+  border-bottom-color: #3066be;
   margin-bottom: 1rem; }
+
+#jordan {
+  border-top-left-radius: 10px; }
+
+#manhattan {
+  border-top-right-radius: 10px; }
+
+#kansascity {
+  border-bottom-left-radius: 10px; }
+
+#sacramento {
+  border-bottom-right-radius: 10px; }
 
 @media only screen and (max-width: 37.49em) {
   header {

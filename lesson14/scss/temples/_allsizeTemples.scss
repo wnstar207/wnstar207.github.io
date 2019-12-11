@@ -3,16 +3,21 @@ h1, h2{font-family: "raleway";}
 h3, h4{font-family: "solway";}
 p, a{font-family: "montserrat";}
 h2, h3, h4, p{text-align: center;}
-img{display: block; margin-left: auto; margin-right: auto; padding: 1rem; width: 90%;}
+img{display: block; margin-left: auto; margin-right: auto; padding: 1rem; width: 80%;}
 header{margin-top: -2rem; background-color: #119da4; text-align: center;}
 body{padding:10px 0; margin:0 auto; background-color:#80ded9;}
 header h1{padding-top: 15px;}
 #icon-right{float: right;}
 #icon-left{float: left;}
+#attention{width: 40%; text-align: center; border-style: solid; border-color: #3066be; border-width: 2px; border-radius: 10px; margin: auto; margin-top: 10px; padding: 10px; margin-bottom: 1rem;}
 .history, .templeServices, .weather{width: 33%; float: left;}
 .ordinances, .jordanCard, .kansascityCard{width: 49%; float: left;}
 .photos{width: 100%;} 
-#jordan, #manhattan, #sanantonio, #rexburg, #kansascity, #sacramento{width: 48%; float: left; border-left-style: solid; border-left-color: #119da4; border-top-style: solid; border-top-color: #119da4;}
-#manhattan, #rexburg, #sacramento{border-right-style: solid; border-right-color: #119da4; margin-right: 1rem;}
+#jordan, #manhattan, #sanantonio, #rexburg, #kansascity, #sacramento{width: 48%; float: left; border-width: 2px; border-left-style: solid; border-left-color: #3066be; border-top-style: solid; border-top-color: #3066be;}
+#manhattan, #rexburg, #sacramento{border-right-style: solid; border-right-color: #3066be; margin-right: 1rem;}
 #kansascity, #jordan, #sanantonio{margin-left: 1rem;}
-#sacramento, #kansascity{border-bottom-style: solid; border-bottom-color: #119da4; margin-bottom: 1rem;}
+#sacramento, #kansascity{border-bottom-style: solid; border-bottom-color: #3066be; margin-bottom: 1rem;}
+#jordan{border-top-left-radius: 10px;}
+#manhattan{border-top-right-radius: 10px;}
+#kansascity{border-bottom-left-radius: 10px;}
+#sacramento{border-bottom-right-radius: 10px;}

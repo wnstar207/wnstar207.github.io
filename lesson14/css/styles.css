@@ -4,29 +4,43 @@
 h1, h2 {
   font-family: "raleway"; }
 
-h3, p {
+h3, h4 {
   font-family: "solway"; }
 
-a {
+p, a {
   font-family: "montserrat"; }
 
-h2 {
+h2, h3, h4 {
   text-align: center; }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  width: 80%; }
+
 header {
+  margin-top: -2rem;
   background-color: #119da4;
-  text-align: center;
-  border-radius: 10px; }
+  text-align: center; }
 
 body {
-  width: 85%;
   padding: 10px 0;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #80ded9; }
 
 header h1 {
   padding-top: 15px; }
 
-#reservaroom {
+#icon-right {
+  float: right; }
+
+#icon-left {
+  float: left; }
+
+#attention {
+  width: 40%;
   text-align: center;
   border-style: solid;
   border-color: #3066be;
@@ -34,7 +48,8 @@ header h1 {
   border-radius: 10px;
   margin: auto;
   margin-top: 10px;
-  padding: 10px; }
+  padding: 10px;
+  margin-bottom: 1rem; }
 
 #temple-summary {
   border-style: solid;
@@ -44,7 +59,8 @@ header h1 {
   padding: 10px;
   margin: auto;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-left: 1rem; }
 
 #temple-summary p {
   margin-top: -1rem;
@@ -59,13 +75,8 @@ header h1 {
   border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
-  margin-left: 10px; }
-
-#icon-right {
-  float: right; }
-
-#icon-left {
-  float: left; }
+  margin-left: 10px;
+  margin-right: 1rem; }
 
 @media only screen and (max-width: 37.49em) {
   .overlay {
@@ -152,10 +163,7 @@ header h1 {
     margin-top: 10px; }
 
   #temple-pictures {
-    text-align: center; }
-
-  #reservaroom {
-    width: 40%; } }
+    text-align: center; } }
 @media only screen and (min-width: 37.5em) {
   header img {
     width: 70px; }
@@ -190,12 +198,6 @@ header h1 {
 
   .temples {
     width: 35%; }
-
-  #reservaroom {
-    width: 40%; }
-
-  #gone1, #gone2, #gone3, #gone4 {
-    display: none; }
 
   #nav {
     list-style: none;
@@ -284,12 +286,6 @@ header h1 {
 
   .temples {
     width: 19%; }
-
-  #reservaroom {
-    width: 40%; }
-
-  #gone1, #gone2, #gone3, #gone4 {
-    display: inline; }
 
   #nav {
     list-style: none;
