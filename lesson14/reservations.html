@@ -1,5 +1,3 @@
-Reservations
-
 <!DOCTYPE html>
 <html lang= "en-us">
 
@@ -10,7 +8,7 @@ Reservations
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="shortcut icon" href="images/favicon-119de4.ico">
-<title>Temple Inn & Suites: Services</title>
+<title>Temple Inn & Suites: Reservations</title>
 </head>
 <body>
     <header>
@@ -47,13 +45,68 @@ Reservations
             
     </header>
     <main>
-
+<!--The reservation page contains a form that collects relevant information when making a normal stay reservation including the location, date, number and type of rooms, registrant's full name, email, phone, home state or country, and special accommodations/comments. You will need to use the CSS flex method for the layout of your reservation form for full credit.-->
+        <div id="attention">
+            <h2>Reserve a Room</h2>
+        </div>
+        <div id="reservations">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="contactInfo">Your name</label><br>
+                        <input type="text" class="contactInfo" name="yourName" pattern="[A-Za-z ]{5,}" title="5 or more letters" required><br><br>
+                    <label class="contactInfo">Your email address</label><br>
+                        <input type="email" class="contactInfo" name="yourEmail" placeholder="email@domain.com" required><br><br>
+                    <label class="contactInfo">Your phone number</label><br>
+                        <input type="tel" class="contactInfo" name="yourPhone" placeholder="9165551234" pattern="[0-9]{10}" required><br><br>
+                    <label class="contactInfo">Your home state or country</label><br>
+                        <input type="text" class="contactInfo" name="yourHome" pattern="[A-Za-z ]{2,}" required><br><br>
+                    <label class="contactInfo">Special requests or other comments</label><br>
+                        <textarea class="contactInfo" id="smallTextArea" rows="4" cols="30"></textarea>
+                        <textarea class="contactInfo" id="largeTextArea" rows="5" cols="45"></textarea>
+                    </fieldset>
+                <fieldset>
+                    <legend>Reservation Information</legend>
+                    <label class="reservationInfo">Check in date</label><br>
+                        <input type="date" id="dt1" class="reservationInfo" name="startDate" required><br><br>
+                        <label class="reservationInfo">Check out date</label><br>
+                        <input type="date" id="dt2" class="reservationInfo" name="endDate" required><br><br>
+                    <label class="reservationInfo">Room type</label><br>
+                        <input list="roomTypes" class="reservationInfo" size="16" required>
+                            <datalist id="roomTypes">
+                                <option value="One Full bed">
+                                <option value="Two Full beds">
+                                <option value="One Queen bed">
+                                <option value="Two Queen beds">
+                                <option value="Suite">
+                            </datalist><br><br>
+                    <label class="reservationInfo">Location</label><br>
+                        <select name="cities" class="reservationInfo">
+                            <option value="Select a location" selected disabled required>Select a location</option>
+                            <option value="Jordan River">Jordan River, UT</option>
+                            <option value="Kansas City">Kansas City, MO</option>
+                            <option value="Manhattan">Manhattan, NY</option>
+                            <option value="Rexburg">Rexburg, ID</option>
+                            <option value="Sacramento">Sacramento, CA</option>
+                            <option value="San Antonio">San Antonio, TX</option>
+                        </select><br><br>
+                        <span class="reservationInfo">Number of rooms</span><br>
+                        <label class="reservationInfo"><input type="radio" name="numRooms" value="one" required>1</label>
+                        <label class="reservationInfo"><input type="radio" name="numRooms" value="two">2</label>
+                        <label class="reservationInfo"><input type="radio" name="numRooms" value="more">More</label>
+                </fieldset>
+                <div id="button">
+                    <input id="submitButton" type="submit" value="Reserve Room">
+                </div>
+                </form>
+        </div>
     </main>
     <footer>
 
     </footer>
     <script src="script/openNav.js"></script>
     <script src="script/closeNav.js"></script>
+    <script src="script/number-occupants.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
