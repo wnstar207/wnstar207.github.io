@@ -43,17 +43,12 @@ header h1 {
 
 #name {
   font-weight: bold;
-  padding-right: 4rem;
-  font-size: 2rem;
+  padding-right: 1rem;
   font-family: "raleway"; }
-
-#icon-right {
-  float: right; }
 
 #icon-left {
   float: left;
-  margin-top: -1rem;
-  width: 5rem; }
+  margin-top: -1rem; }
 
 #attention {
   width: 40%;
@@ -93,12 +88,6 @@ header h1 {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 1rem; }
-
-fieldset {
-  width: 45%;
-  margin: auto;
-  height: 22rem;
-  margin-left: 1rem; }
 
 #submitButton {
   margin-right: 3rem;
@@ -156,10 +145,16 @@ fieldset {
   ul {
     list-style-type: none; }
 
-  header h1 {
+  header {
+    height: 2rem; }
+
+  header h2 {
     font-size: 1rem;
-    margin-top: 10px;
-    margin-bottom: 0; }
+    padding-top: .5rem;
+    color: #f1f1f1; }
+
+  .openbtn {
+    margin-left: -15rem; }
 
   header a, header li {
     font-size: .8rem; }
@@ -168,11 +163,10 @@ fieldset {
     font-size: .8rem;
     line-height: 1rem; }
 
-  #icon-right {
-    display: none; }
-
   #icon-left {
-    margin-left: 45px; }
+    margin-left: 45px;
+    width: 3rem;
+    margin-top: -3.75rem; }
 
   #temple-summary {
     float: none;
@@ -191,26 +185,32 @@ fieldset {
   #temple-pictures {
     text-align: center; }
 
-  #largeTextArea {
-    display: none; } }
+  #largeTextArea, #name {
+    display: none; }
+
+  fieldset {
+    width: 90%;
+    margin: auto;
+    height: 20rem;
+    margin-left: 1rem; } }
 @media only screen and (min-width: 37.5em) {
-  header h1 {
-    font-size: 1.5rem; }
+  header h2 {
+    display: none; }
 
   header a, header li {
     font-size: .8rem; }
+
+  #name {
+    font-size: 1rem; }
 
   h2 {
     font-size: 1rem;
     line-height: 1.25rem; }
 
-  #icon-right {
-    float: right;
-    margin-right: 25px; }
-
   #icon-left {
     float: left;
-    margin-left: 25px; }
+    margin-left: -5px;
+    width: 5.5rem; }
 
   .openbtn, .closebtn {
     display: none; }
@@ -230,6 +230,12 @@ fieldset {
 
   #largeTextArea {
     display: block; }
+
+  fieldset {
+    width: 90%;
+    margin: auto;
+    height: 20rem;
+    margin-left: 1rem; }
 
   #nav {
     list-style: none;
@@ -288,23 +294,23 @@ fieldset {
     background-color: #FC9E4F;
     color: #293132; } }
 @media only screen and (min-width: 60em) {
-  header h1 {
-    font-size: 2rem; }
+  header h2 {
+    display: none; }
 
   header a, header li {
     font-size: 1rem; }
+
+  #name {
+    font-size: 1.5rem; }
 
   h2 {
     font-size: 1.5rem;
     line-height: 2rem; }
 
-  #icon-right {
-    float: right;
-    margin-right: 150px; }
-
   #icon-left {
     float: left;
-    margin-left: 150px; }
+    margin-left: 20px;
+    width: 5.5rem; }
 
   .openbtn, .closebtn {
     display: none; }
@@ -318,6 +324,12 @@ fieldset {
 
   .temples {
     width: 19%; }
+
+  fieldset {
+    width: 45%;
+    margin: auto;
+    height: 20rem;
+    margin-left: 1rem; }
 
   #nav {
     list-style: none;

@@ -1,10 +1,12 @@
-header h1{font-size: 1rem; margin-top: 10px; margin-bottom: 0;}
+header{height: 2rem;}
+header h2{font-size: 1rem; padding-top: .5rem; color: #f1f1f1;}
+.openbtn{margin-left: -15rem;}
 header a, header li{font-size: .8rem;}
 h2{font-size: .8rem; line-height: 1rem;}
-#icon-right{display: none;}
-#icon-left{margin-left: 45px;}
+#icon-left{margin-left: 45px; width: 3rem; margin-top: -3.75rem;}
 #temple-summary{float: none; width: 85%; margin: auto; margin-top: 10px;}
 #temple-summary p{font-size: .8rem;}
 .temples{float: none; width: 37%; margin-top: 10px;}
 #temple-pictures{text-align: center;}
-#largeTextArea{display: none;}
+#largeTextArea, #name{display: none;}
+fieldset{width: 90%; margin: auto; height: 20rem; margin-left: 1rem;}
