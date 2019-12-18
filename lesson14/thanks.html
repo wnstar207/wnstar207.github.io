@@ -15,27 +15,36 @@
 <!--weather for Soda Springs, Preston, and Fish Haven, ID. domain name: southeast-idaho-weather.com-->
 <body>
     <header>
-        <img id="left-logo" src="images/weathericon.jpg" alt="logo, thermometer with fire and ice">
-        <img id="right-logo" src="images/weathericon.jpg" alt="logo, thermometer with fire and ice">
-        <h1>Southeast Idaho Weather</h1>
-        <div id="myNav" class="overlay">
-            <!-- Button to close the overlay navigation -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
-            <!-- Overlay content -->
+        <img id="icon-left" src="images/2300992-512.png" alt="hotel icon">
+        <h2>Temple Inn & Suites<button type="button" class="openbtn" onclick="openNav()">Menu</button></h2>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
                 <div class="overlay-content">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="preston5.html">Preston</a></li>
-                            <li><a href="soda-springs.html">Soda Springs</a></li>
-                            <li><a href="fish-haven.html">Fish Haven</a></li>
-                            <li><a href="storm-center.html">Storm Center</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
+                    <div class="drop">
+                        <ul id="nav" class="drop_menu">
+                        <li id="name">Temple Inn & Suites</li>
+                        <li><a href="temple-inn.html">Home</a></li>
+                        <li><a href="nearby-temples.html">Nearby Temples</a>
+                            <ul>
+                                <li><a href="jordan-river-temple.html">Jordan River Utah</a></li>
+                                <li><a href="kansas-city-temple.html">Kansas City Missouri</a></li>
+                                <li><a href="manhattan-temple.html">Manhattan New York</a></li>
+                                <li><a href="rexburg-temple.html">Rexburg Idaho</a></li>
+                                <li><a href="sacramento-temple.html">Sacramento California</a></li>
+                                <li><a href="san-antonio-temple.html">San Antonio Texas</a></li>
+                            </ul>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="services.html">Services</a>
+                        <ul id="submenu">
+                        <li><a href="receptions.html">Receptions</a></li>
+                        <li><a href="missionaries.html">Full-Time Missionaries</a></li>
                         </ul>
-                    </nav>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
-        </div>
-        <button type="button" class="openbtn" onclick="openNav()">Menu</button>
+            </div>
+            
     </header>
     <main>
         <span id="imageContainer">
