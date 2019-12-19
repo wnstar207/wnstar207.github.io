@@ -18,7 +18,7 @@ li {
   font-family: "montserrat";
   color: #f1f1f1; }
 
-h2, h3, h4 {
+h2, h3, h4, p {
   text-align: center; }
 
 img {
@@ -29,7 +29,6 @@ img {
   width: 80%; }
 
 header {
-  margin-top: -1rem;
   background-color: #ff521b;
   text-align: center; }
 
@@ -40,6 +39,9 @@ body {
 
 header h1 {
   padding-top: 15px; }
+
+#temple-name {
+  margin-top: 5rem; }
 
 #name {
   font-weight: bold;
@@ -62,7 +64,7 @@ header h1 {
   padding: 10px;
   margin-bottom: 1rem; }
 
-#temple-summary {
+#temple-summary, #services, #amenities, #extras {
   border-style: solid;
   border-color: #FC9E4F;
   border-width: 2px;
@@ -75,8 +77,8 @@ header h1 {
 
 #temple-summary p {
   margin-top: -1rem;
-  text-indent: 25px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  text-align: left; }
 
 .temples, fieldset {
   float: left;
@@ -95,6 +97,68 @@ header h1 {
 
 #buttonDiv {
   text-align: center; }
+
+.amenity-pics {
+  width: 30%;
+  margin: auto;
+  display: inline-block; }
+
+#amenities, #extras, #services {
+  text-align: center; }
+
+.service-links {
+  color: #293132;
+  text-decoration: underline; }
+
+.history, .templeServices, .weather {
+  width: 33%;
+  float: left; }
+
+.ordinances, .jordanCard, .kansascityCard {
+  width: 49%;
+  float: left; }
+
+.photos {
+  width: 75%;
+  margin: auto; }
+
+.thisMap {
+  width: 50%;
+  margin-left: 25%; }
+
+#jordan, #manhattan, #sanantonio, #rexburg, #kansascity, #sacramento {
+  width: 48%;
+  float: left;
+  border-width: 2px;
+  border-left-style: solid;
+  border-left-color: #fc9e4f;
+  border-top-style: solid;
+  border-top-color: #fc9e4f; }
+
+#manhattan, #rexburg, #sacramento {
+  border-right-style: solid;
+  border-right-color: #fc9e4f;
+  margin-right: 1rem; }
+
+#kansascity, #jordan, #sanantonio {
+  margin-left: 1rem; }
+
+#sacramento, #kansascity {
+  border-bottom-style: solid;
+  border-bottom-color: #fc9e4f;
+  margin-bottom: 1rem; }
+
+#jordan {
+  border-top-left-radius: 10px; }
+
+#manhattan {
+  border-top-right-radius: 10px; }
+
+#kansascity {
+  border-bottom-left-radius: 10px; }
+
+#sacramento {
+  border-bottom-right-radius: 10px; }
 
 @media only screen and (max-width: 37.49em) {
   .overlay {
@@ -236,7 +300,7 @@ header h1 {
   fieldset {
     width: 90%;
     margin: auto;
-    height: 20rem;
+    height: 21rem;
     margin-left: 1rem; }
 
   #nav {
@@ -296,6 +360,9 @@ header h1 {
     background-color: #FC9E4F;
     color: #293132; } }
 @media only screen and (min-width: 60em) {
+  header {
+    margin-top: 0; }
+
   header h2 {
     display: none; }
 
@@ -330,7 +397,7 @@ header h1 {
   fieldset {
     width: 45%;
     margin: auto;
-    height: 20rem;
+    height: 21rem;
     margin-left: 1rem; }
 
   #nav {
