@@ -114,9 +114,9 @@ header h1 {
   width: 33%;
   float: left; }
 
-.ordinances, .jordanCard, .kansascityCard {
-  width: 49%;
-  float: left; }
+.ordinances, .jordanCard, .kansascityCard, .rexburgCard, .sacramentoCard, .sanantonioCard, .manhattanCard {
+  width: 45%;
+  float: right; }
 
 .photos {
   width: 75%;
@@ -226,8 +226,11 @@ header h1 {
     font-size: .8rem; }
 
   h2 {
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1rem; }
+
+  p {
+    font-size: .8rem; }
 
   #icon-left {
     margin-left: 5%;
