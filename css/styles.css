@@ -1,5 +1,5 @@
 body {
-  background-color: orange; }
+  background-color: #00aeff; }
 
 h1, h2 {
   font-family: "merriweather"; }
@@ -7,15 +7,76 @@ h1, h2 {
 p, li {
   font-family: "inconsolata"; }
 
+header, footer {
+  background-color: white;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px; }
+
+img {
+  float: right; }
+
+ul {
+  list-style-type: none; }
+
 @media only screen and (max-width: 37.49em) {
   h1 {
-    font-size: .85rem;
-    color: purple; } }
+    font-size: 1.5rem;
+    color: purple; }
+
+  h2 {
+    font-size: 1rem; }
+
+  p, li {
+    font-size: .85rem; }
+
+  img {
+    width: 5rem;
+    margin-top: -3rem; }
+
+  h2, hr {
+    margin-left: 2.5rem; }
+
+  li {
+    margin-left: .5rem; } }
 @media only screen and (min-width: 37.5em) {
   h1 {
-    font-size: 1rem;
-    color: red; } }
+    font-size: 1.75rem;
+    color: red; }
+
+  h2 {
+    font-size: 1.25rem; }
+
+  p, li {
+    font-size: 1rem; }
+
+  img {
+    width: 7.5rem;
+    margin-top: -3.5rem; }
+
+  h2, hr {
+    margin-left: 4rem; }
+
+  li {
+    margin-left: 2rem; } }
 @media only screen and (min-width: 60em) {
   h1 {
     font-size: 2rem;
-    color: green; } }
+    color: green; }
+
+  h2 {
+    font-size: 1.5rem; }
+
+  p, li {
+    font-size: 1.25rem; }
+
+  img {
+    width: 10rem;
+    margin-top: -4rem; }
+
+  li {
+    margin-left: 3.5rem; }
+
+  h2, hr {
+    margin-left: 5.5rem; } }
