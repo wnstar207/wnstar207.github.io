@@ -1,0 +1,13 @@
+@import "w3-allSizes";
+
+@media only screen and (max-width: 37.49em){
+@import "w3-small";
+}
+
+@media only screen and (min-width: 37.5em){
+@import "w3-medium";
+}
+
+@media only screen and (min-width: 60em){
+@import "w3-large";
+}
