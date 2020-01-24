@@ -31,7 +31,8 @@ a:hover, .hover, #you-are-here {
   padding-top: 1rem; }
 
 #something {
-  font-weight: normal; }
+  font-weight: normal;
+  text-indent: 5rem; }
 
 @media only screen and (max-width: 37.49em) {
   h1 {
