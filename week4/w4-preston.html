@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset= "utf-8">
+        <meta name="author" content="Wendi Stark">
+        <meta name="description" content="Wendi Stark's Course Portal Home Page for CIT 230: Web Frontend Development">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="w4-css/styles.css">
+        <link rel="stylesheet" href="w4-css/navMenu.css">
+        <link rel="shortcut icon" href="w4-images/crazy-cloud.ico">
+        <title>Preston, ID</title>
+    </head>
+    <body>
+        <header>
+            <img src="w4-images/sun-square.png" alt="sun logo">
+            <h1 id="name"> Weatherman Says... <button type="button" class="openbtn" onclick="openNav()">&#9776; Menu</button></h1>
+            <p>...Motto</p>
+            <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a id="you-are-here" href="w4-preston.html">Preston</a></li>
+                            <li><a href="#">Fish Haven</a></li>
+                            <li><a href="#">Soda Springs</a></li>
+                            <li><a href="#">Storm Center</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+        </header>
+        <main>
+            <h2>PRESTON, ID</h2>
+            <p>Hero w/ weather summary</p>
+            <p>5-day forecast</p>
+            <p>Article</p>
+            <p>Contact info</p>
+        </main>
+        <footer>
+            <img src="w4-images/grass.png" alt="grass logo">
+            <p>&copy; <span id="year"></span> | Wendi Stark | California | <a target="_blank" href="http://www.byui.edu/online">BYUI Online Learning</a><br>
+            <span id="today"></span></p>
+            <a href="../index.html">Back to Assignment Portal</a>
+        </footer>
+        <script src="w4-script/year.js"></script>
+        <script src="w4-script/today.js"></script>
+        <script src="w4-script/openNav.js"></script>
+        <script src="w4-script/closeNav.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+            google: {
+            families: ['Merriweather', 'Inconsolata']
+            }
+            });
+        </script>
+    </body>
+</html>
