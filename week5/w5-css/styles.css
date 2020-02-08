@@ -155,8 +155,8 @@ main p {
     margin-top: -5rem;
     width: 30%;
     border-style: solid;
-    border-color: goldenrod;
-    background-color: #134265; }
+    border-color: #00aeff;
+    background-color: #012435; }
 
   #dailyMess {
     padding: .5rem;
@@ -199,9 +199,10 @@ main p {
     width: 20%; }
 
   #article-image {
-    margin-left: 5rem;
+    margin-left: 4rem;
     float: left;
-    width: 40%; }
+    width: 40%;
+    padding-right: 1rem; }
 
   #forecast {
     display: block; }
@@ -221,8 +222,8 @@ main p {
     font-weight: bold;
     margin-top: -5rem;
     border-style: solid;
-    border-color: goldenrod;
-    background-color: #134265; } }
+    border-color: #00aeff;
+    background-color: #012435; } }
 @media only screen and (min-width: 60em) {
   h1 {
     font-size: 2rem; }
