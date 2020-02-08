@@ -1,0 +1,266 @@
+body {
+  width: 100%;
+  margin: auto;
+  text-align: center; }
+
+header h1 {
+  padding-top: 1rem; }
+
+header, footer, #dailyMess {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px; }
+
+header, #dailyMess {
+  background-color: #00aeff; }
+
+footer {
+  background-color: #6acf05; }
+
+h1, h2 {
+  font-family: "merriweather"; }
+
+p, h3, h4, li, a {
+  font-family: "inconsolata"; }
+
+ul {
+  list-style-type: none;
+  display: inline-block; }
+
+li {
+  float: left; }
+
+a:link, a:visited {
+  color: black; }
+
+a:hover, .hover, #you-are-here {
+  text-decoration: none;
+  color: white;
+  background-color: #012435; }
+
+#back-to-portal {
+  float: none;
+  padding-top: 1rem; }
+
+header img {
+  margin-top: .5rem;
+  float: left;
+  margin-left: 1rem;
+  vertical-align: middle; }
+
+footer img {
+  margin-bottom: 0;
+  float: right;
+  margin-right: 1rem;
+  vertical-align: text-top; }
+
+main h2 {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem; }
+
+main p {
+  padding: 2rem;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem; }
+
+#forecast, #article, #contact {
+  border-style: solid;
+  border-color: #00aeff;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem; }
+
+#hero {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem; }
+
+#address {
+  padding: 90px 0; }
+
+#article-image {
+  padding-bottom: 1rem;
+  margin-top: 1rem; }
+
+#article-text {
+  text-align: left; }
+
+#lake-image {
+  width: 100%; }
+
+@media only screen and (max-width: 37.49em) {
+  h1 {
+    font-size: 1.5rem; }
+
+  h2 {
+    font-size: 1rem; }
+
+  p, li, h3, footer p, footer a {
+    font-size: .85rem; }
+
+  header {
+    height: 5rem; }
+
+  header h1 {
+    margin-bottom: 0; }
+
+  header p {
+    margin-top: 0; }
+
+  header img {
+    width: 2rem;
+    padding-top: .5rem; }
+
+  footer img {
+    width: 5rem;
+    margin-top: -3rem; }
+
+  h2, h3, h4, p {
+    margin-left: 2.5rem; }
+
+  li {
+    margin-left: .5rem; }
+
+  #contact {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem; }
+
+  #map-image {
+    display: none; }
+
+  #article-image {
+    width: 90%;
+    margin: auto; }
+
+  #forecast {
+    display: none; }
+
+  #summary {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    margin-left: .5rem;
+    margin-top: -5rem;
+    width: 30%;
+    border-style: solid;
+    border-color: goldenrod;
+    background-color: #134265; }
+
+  #dailyMess {
+    padding: .5rem;
+    width: 100%; } }
+@media only screen and (min-width: 37.5em) {
+  h1 {
+    font-size: 1.75rem; }
+
+  h2 {
+    font-size: 1.25rem; }
+
+  p, li, h3 {
+    font-size: 1rem; }
+
+  header img, footer img {
+    width: 5rem; }
+
+  footer p, footer a {
+    font-size: .85rem; }
+
+  footer img {
+    margin-top: -3.5rem; }
+
+  h2, h3, h4, p {
+    margin-left: 4rem; }
+
+  li {
+    margin-left: 2rem; }
+
+  #contact {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem; }
+
+  #map-image {
+    display: flex;
+    float: left;
+    width: 20%; }
+
+  #article-image {
+    margin-left: 5rem;
+    float: left;
+    width: 40%; }
+
+  #forecast {
+    display: block; }
+
+  #forecast-image {
+    width: 50%;
+    margin-top: 1.5rem; }
+
+  #summary {
+    margin-left: 1rem;
+    width: 25%;
+    padding: .5rem; }
+
+  #summary {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    margin-top: -5rem;
+    border-style: solid;
+    border-color: goldenrod;
+    background-color: #134265; } }
+@media only screen and (min-width: 60em) {
+  h1 {
+    font-size: 2rem; }
+
+  h2 {
+    font-size: 1.5rem; }
+
+  p, li, h3 {
+    font-size: 1.25rem; }
+
+  header img, footer img {
+    width: 6rem; }
+
+  footer p, footer a {
+    font-size: 1rem; }
+
+  h2, h3, h4, p {
+    margin-left: 6rem; }
+
+  #map-image {
+    display: flex;
+    float: left;
+    width: 20%; }
+
+  #article-image {
+    margin-right: 5rem;
+    float: right;
+    width: 30%; }
+
+  #summary {
+    margin-left: 5rem;
+    width: 20%; }
+
+  #summary {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    margin-top: -5rem;
+    border-style: solid;
+    border-color: #00aeff;
+    background-color: #012435; } }

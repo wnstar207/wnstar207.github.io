@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset= "utf-8">
+        <meta name="author" content="Wendi Stark">
+        <meta name="description" content="Wendi Stark's Course Portal Home Page for CIT 230: Web Frontend Development">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="w5-css/styles.css">
+        <link rel="stylesheet" href="w5-css/navMenu.css">
+        <link rel="shortcut icon" href="w5-images/crazy-cloud.ico">
+        <title>Preston, ID Weather</title>
+    </head>
+    <body>
+        <div id="dailyMess"></div>
+        <header>
+            <img src="w5-images/sun-square.png" alt="sun logo">
+            <h1 id="name"> Weatherman Says... <button type="button" class="openbtn" onclick="openNav()">&#9776; Menu</button></h1>
+            <p>...There's no such thing as bad weather</p>
+            <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a id="you-are-here" href="w5-preston.html">Preston</a></li>
+                            <li><a href="#">Fish Haven</a></li>
+                            <li><a href="#">Soda Springs</a></li>
+                            <li><a href="#">Storm Center</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+        </header>
+        <main>
+            <h2>PRESTON, ID</h2>
+            <div id="hero">
+                <img id="lake-image" src="w5-images/lake-banner.jpg" alt="photo of a lake">
+                    <div id="summary">
+                    Weather Summary<br>
+                    Currently: Sunny<br>
+                    High: 68&#176;F<br>
+                    Wind Chill: &#176;F<br>
+                    Humidity: 52%<br>
+                    Wind Speed: 3 MPH
+                    </div>
+            </div>
+            <div id="forecast">
+            <a target="_blank" href="https://weather.com/weather/5day/l/cddd58aba5c41265afa664dd2209b9ccdff358bfc97b5ee75cde9ed7313ed721"><img id="forecast-image" src="w5-images/preston-weather.png" alt="5 day weather forecast for Preston Idaho"><br>weather.com</a>
+            </div>
+            <div id="article">
+            <h2>Early Snow Brings Sledding</h2>
+            <img id="article-image" src="w5-images/sledding.JPG" alt="3 children sledding">
+            <p id="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec sapien vel justo condimentum consectetur id eget lorem. Donec vulputate sapien est, a sollicitudin dolor placerat sit amet. Etiam ultricies ornare ipsum vitae fringilla. Suspendisse convallis magna lacus, lobortis commodo ante aliquet eget. Cras quis orci vel mauris tincidunt aliquam eget quis elit. Nunc pellentesque semper ex quis suscipit. Curabitur non luctus arcu. Mauris id turpis sed dolor fringilla auctor. Curabitur in est lacinia, ultricies turpis nec, pellentesque tortor. Ut risus justo, porta sit amet consequat eu, efficitur sit amet urna. Donec dignissim ligula et nisi laoreet, in tincidunt magna dictum.<br><br>
+            Donec fringilla dapibus nunc nec faucibus. Phasellus finibus ac dolor ac condimentum. Nunc gravida dui sodales viverra consectetur. Sed scelerisque vehicula lectus, ut iaculis sapien lacinia in. Mauris non libero egestas, sodales dolor et, consectetur diam. Ut non elit eu lectus dignissim iaculis. Praesent sollicitudin molestie metus, vel posuere metus faucibus ut. Aenean mollis magna vestibulum fringilla pulvinar. Suspendisse potenti. Fusce eu suscipit sapien. Duis vitae justo in mauris venenatis fermentum. Nullam eget augue lorem. Nam luctus, neque et varius tincidunt, enim sapien rhoncus nibh, at venenatis nisl lectus sit amet urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sed velit blandit, ultricies libero in, ultricies erat.</p>
+            </div>
+            <div id="contact">
+                <img id="map-image" src="w5-images/preston-map.png" alt="map of Preston Idaho">
+                <p id="address"><b>Weatherman Says</b><br>
+                12345 Lee School Road<br>
+                Preston, ID 83263</p>
+            </div>
+        </main>
+        <footer>
+            <img src="w5-images/grass.png" alt="grass logo">
+            <p>&copy; <span id="year"></span> | Wendi Stark | California | <a target="_blank" href="http://www.byui.edu/online">BYUI Online Learning</a><br>
+            <span id="today"></span></p>
+            <a href="../index.html">Back to Assignment Portal</a>
+        </footer>
+        <script src="w5-script/year.js"></script>
+        <script src="w5-script/today.js"></script>
+        <script src="w5-script/openNav.js"></script>
+        <script src="w5-script/closeNav.js"></script>
+        <script src="w5-script/dailyMess.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+            google: {
+            families: ['Merriweather', 'Inconsolata']
+            }
+            });
+        </script>
+    </body>
+</html>
