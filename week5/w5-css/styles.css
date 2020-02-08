@@ -88,7 +88,7 @@ main p {
   padding: 90px 0; }
 
 #article-image {
-  padding-bottom: 1rem;
+  padding-top: 1rem;
   margin-top: 1rem; }
 
 #article-text {
@@ -96,6 +96,9 @@ main p {
 
 #lake-image {
   width: 100%; }
+
+#dailyMess {
+  padding: .5rem; }
 
 @media only screen and (max-width: 37.49em) {
   h1 {
@@ -156,11 +159,7 @@ main p {
     width: 30%;
     border-style: solid;
     border-color: #00aeff;
-    background-color: #012435; }
-
-  #dailyMess {
-    padding: .5rem;
-    width: 100%; } }
+    background-color: #012435; } }
 @media only screen and (min-width: 37.5em) {
   h1 {
     font-size: 1.75rem; }
