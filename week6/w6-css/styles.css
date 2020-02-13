@@ -30,7 +30,7 @@ header, footer, #dailyMess {
   border-radius: 10px;
   margin-top: 2rem;
   text-align: center;
-  font-family: "maven pro"; }
+  font-family: "inconsolata", serif; }
 
 header, #dailyMess {
   background-color: #00aeff; }
