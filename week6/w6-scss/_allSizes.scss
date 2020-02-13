@@ -1,0 +1,37 @@
+body{width: 80%; margin: auto; text-align: center;}
+h1{font-family: "merriweather", cursive; padding: .5rem;}
+h2, h3{font-family: "merriweather", cursive;}
+p, a, div{font-family: "inconsolata", serif;}
+ul{list-style: none;}
+a:link, a:visited{color: black; font-family: "inconsolata", serif;}
+a:hover, #you-are-here{text-decoration: none; color: white; background-color: rgb(1, 36, 53);}
+header, footer, #dailyMess {width: 100%; border-radius: 10px; margin-top: 2rem; text-align: center; font-family: "maven pro";}
+header, #dailyMess{background-color: rgb(0, 174, 255);}
+footer{background-color: rgb(106, 207, 5);}
+table{display: inline-block; border-style: solid; border-radius: 10px; border-color: rgb(0, 174, 255);}
+td{line-height: 2rem; padding: .5rem; background-color: silver;}
+th{padding: 1rem; background-color: rgb(0, 174, 255);}
+th{width: 7.5rem;}
+header img{float: left; margin-left: 1rem;}
+footer img{float: right;}
+
+
+#forecast, #article, #contact, #summary{margin-top: 1rem; border-style: solid; border-color: rgb(0, 174, 255); border-radius: 10px; padding: 2rem;}
+#summary{position: relative; color: white; margin-top: -5rem; background-color: rgb(1, 36, 53);}
+#lake-image{width: 100%;}
+#dailyMess{padding: .5rem; width: 95%; margin: auto;}
+#article-text{text-align: left;}
+#socialMedia{display: block; align-items: center;}
+#facebook, #twitter, #linkedin {width: 30px; padding: .1rem;}
+#franklin{width: 100%;}
+#dayOne{border-top-left-radius: 10px;}
+#dayFive{border-top-right-radius: 10px;}
+#bottomLeft{border-bottom-left-radius: 10px;}
+#bottomRight{border-bottom-right-radius: 10px;}
+
+//blue rgb(0, 174, 255)
+//green rgb(106, 207, 5)
+//a hover background rgb(1, 36, 53)
+//a hover text white
+//merriweather
+//inconsolata

@@ -1,0 +1,269 @@
+body {
+  width: 80%;
+  margin: auto;
+  text-align: center; }
+
+h1 {
+  font-family: "merriweather", cursive;
+  padding: .5rem; }
+
+h2, h3 {
+  font-family: "merriweather", cursive; }
+
+p, a, div {
+  font-family: "inconsolata", serif; }
+
+ul {
+  list-style: none; }
+
+a:link, a:visited {
+  color: black;
+  font-family: "inconsolata", serif; }
+
+a:hover, #you-are-here {
+  text-decoration: none;
+  color: white;
+  background-color: #012435; }
+
+header, footer, #dailyMess {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "maven pro"; }
+
+header, #dailyMess {
+  background-color: #00aeff; }
+
+footer {
+  background-color: #6acf05; }
+
+table {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #00aeff; }
+
+td {
+  line-height: 2rem;
+  padding: .5rem;
+  background-color: silver; }
+
+th {
+  padding: 1rem;
+  background-color: #00aeff; }
+
+th {
+  width: 7.5rem; }
+
+header img {
+  float: left;
+  margin-left: 1rem; }
+
+footer img {
+  float: right; }
+
+#forecast, #article, #contact, #summary {
+  margin-top: 1rem;
+  border-style: solid;
+  border-color: #00aeff;
+  border-radius: 10px;
+  padding: 2rem; }
+
+#summary {
+  position: relative;
+  color: white;
+  margin-top: -5rem;
+  background-color: #012435; }
+
+#lake-image {
+  width: 100%; }
+
+#dailyMess {
+  padding: .5rem;
+  width: 95%;
+  margin: auto; }
+
+#article-text {
+  text-align: left; }
+
+#socialMedia {
+  display: block;
+  align-items: center; }
+
+#facebook, #twitter, #linkedin {
+  width: 30px;
+  padding: .1rem; }
+
+#franklin {
+  width: 100%; }
+
+#dayOne {
+  border-top-left-radius: 10px; }
+
+#dayFive {
+  border-top-right-radius: 10px; }
+
+#bottomLeft {
+  border-bottom-left-radius: 10px; }
+
+#bottomRight {
+  border-bottom-right-radius: 10px; }
+
+@media only screen and (max-width: 37.49em) {
+  h1 {
+    font-size: .95rem; }
+
+  h2, h3 {
+    font-size: .85rem; }
+
+  p, a, div {
+    font-size: .75rem; }
+
+  footer {
+    font-size: .75rem; }
+
+  header img {
+    width: 50px; }
+
+  footer img {
+    width: 50px;
+    margin-top: -1.5rem; }
+
+  header img {
+    margin-top: .25rem; }
+
+  #forecast {
+    display: none; }
+
+  #summary {
+    margin-left: .5rem;
+    width: 30%;
+    padding: .5rem; }
+
+  #map-image {
+    display: none; }
+
+  #article-image {
+    width: 75%; } }
+@media only screen and (min-width: 37.5em) {
+  h1 {
+    font-size: 1.5rem; }
+
+  h2 {
+    font-size: 1.5rem; }
+
+  h3 {
+    font-size: 1.25rem; }
+
+  p, div {
+    font-size: 1rem; }
+
+  a {
+    font-size: .85rem; }
+
+  li {
+    padding: .5rem;
+    margin-top: -2rem;
+    float: left; }
+
+  table {
+    margin-left: -1rem; }
+
+  th, tr {
+    font-size: .8rem; }
+
+  header img, footer img {
+    width: 75px; }
+
+  footer img {
+    margin-top: -2.5rem; }
+
+  header img {
+    margin-top: .5rem; }
+
+  .overlay, .closebtn, .openbtn {
+    display: none; }
+
+  #menuButton {
+    display: none; }
+
+  #myNav {
+    display: inline-block;
+    margin-left: -2rem; }
+
+  #summary {
+    margin-left: 1rem;
+    width: 30%;
+    padding: .5rem; }
+
+  #forecast {
+    display: block; }
+
+  #map-image {
+    display: flex;
+    float: left;
+    height: 10rem; }
+
+  #article-image {
+    float: right;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    width: 40%; }
+
+  #dailyMess {
+    width: 97%; }
+
+  #contact {
+    margin-top: 1rem;
+    height: 10rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem; }
+
+  #contact-heading {
+    margin-top: -.1rem; } }
+@media only screen and (min-width: 60em) {
+  h1 {
+    font-size: 2rem; }
+
+  h2 {
+    font-size: 1.75rem; }
+
+  h3 {
+    font-size: 1.5rem; }
+
+  a {
+    font-size: 1rem; }
+
+  table {
+    margin-left: -1rem; }
+
+  th, tr {
+    font-size: 1rem; }
+
+  header img, footer img {
+    width: 100px; }
+
+  footer img {
+    margin-top: -4rem; }
+
+  #summary {
+    margin-left: 5rem;
+    width: 20%; }
+
+  #dailyMess {
+    width: 97%; }
+
+  #map-image {
+    height: 20rem; }
+
+  #contact {
+    margin-top: 1rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem; }
+
+  #contact-heading {
+    margin-top: 5rem; } }
